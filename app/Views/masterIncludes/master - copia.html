@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+<!-- begin::Head -->
+
+<head>
+  <meta charset="utf-8" />
+  <title>
+    {{ title }} | Educarte
+  </title>
+  <meta name="description" content="Latest updates and statistic charts">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> {% include 'masterIncludes/styles/masterStyles.html'%} {% block styles %}{% endblock %}
+  <style>
+  .m-footer--push.m-aside-left--enabled:not(.m-footer--fixed) .m-footer {
+
+    margin-left: 0 !important;
+  }
+  </style>
+  <!--begin::Web font -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+  <script>
+  WebFont.load({
+    google: { "families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"] },
+    active: function() {
+      sessionStorage.fonts = true;
+    }
+  });
+  </script>
+  <style>
+  {% if type=='1' or type=='3' %}
+  @media (min-width: 1280px) {
+    body {
+      width: 1280px;
+      margin: 0 auto;
+    }
+    .m-header--fixed .m-header {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  }
+  
+
+
+
+  {% endif %}
+  .menu-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 255px;
+    margin-left: -30px;
+  }
+  .inner{
+    width: 33.3%;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .inner.active{
+    color: #000;
+    background-color: #ffffff;
+  }
+  .fix-con{
+    position: fixed;
+  }
+  .m-aside-menu .m-menu__nav {
+    padding: 0px 0 0 0!important;
+  }
+  .theme-educarte-light{
+    background-color: #ffffff;
+  }
+  .m-menu__subnav .m-menu__item  .form-group .m-checkbox-list{
+        padding-left: 20px;
+  }
+  .m-menu__subnav .m-menu__item  .form-group{
+    padding: 0 20px;
+  }
+  #exampleSelect2{
+    margin: 5px 0;
+  }
+  .posit-bot-left{
+    margin: 0 25%;
+  }
+  </style>
+</head>
+<!-- end::Head -->
+<!-- end::Body -->
+
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+  <div class="m-page-loader m-page-loader--base">
+    <div class="m-spinner m-spinner--brand"></div>
+  </div>
+  <div class="wrapper">
+    <!-- begin:: Page -->
+    <div class="m-grid m-grid--hor m-grid--root m-page">
+      <!-- BEGIN: Header -->
+      <header class="m-grid__item    m-header " data-minimize-offset="200" data-minimize-mobile-offset="200">
+        <div class="m-container m-container--fluid m-container--full-height">
+          <div class="m-stack m-stack--ver m-stack--desktop">
+            <!-- BEGIN: Brand -->
+            <div class="m-stack__item m-brand  m-brand--skin-dark ">
+              <div class="m-stack m-stack--ver m-stack--general">
+                <div class="m-stack__item m-stack__item--middle m-brand__logo">
+                  <a href="/" class="m-brand__logo-wrapper">
+                    <img alt="" src="/assets/demo/default/media/img/logo/logo_default_dark.png"/>
+                  </a>
+                </div>
+                <div class="m-stack__item m-stack__item--middle m-brand__tools">
+                  <!-- BEGIN: Responsive Header Menu Toggler -->
+                  <a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
+                    <span></span>
+                  </a>
+                  <!-- END -->
+                  <!-- BEGIN: Topbar Toggler -->
+                </div>
+              </div>
+            </div>
+            <!-- END: Brand -->
+            <div class="m-stack__item m-stack__item--fluid m-header-head " id="m_header_nav">
+              <!-- BEGIN: Horizontal Menu -->
+              <button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-dark " id="m_aside_header_menu_mobile_close_btn"><i class="la la-close"></i></button>
+              <!-- <div class="menu-top__propper"><a href="">INGRESAR</a>/ <a href="">REGISTRO</a></div> -->
+              <div id="m_header_menu" class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-light m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-dark m-aside-header-menu-mobile--submenu-skin-dark flex-container_wrap ">
+                <div class="menu-bottom__propper">
+                  <ul class="m-menu__nav  m-menu__nav--submenu-arrow ">
+                    <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel" aria-haspopup="true">
+                      <a class="m-menu__link m-" href="/institucion"><span class="m-menu__link-text">INSTITUCIONES</span></a>
+                    </li>
+                    <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel" aria-haspopup="true">
+                      <a class="m-menu__link m-" href="/categoria"><span class="m-menu__link-text">CATEGORIAS</span></a>
+                    </li>
+                    <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel" aria-haspopup="true">
+                      <a class="m-menu__link m-"><span class="m-menu__link-text">INFORMACIÓN</span></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="search-web">
+                  <div class="m-input-icon m-input-icon--right">
+                    <input type="text" class="form-control m-input">
+                    <span class="m-input-icon__icon m-input-icon__icon--right"><span><i class="la la-search"></i></span></span>
+                  </div>
+                </div>
+              </div>
+              <!-- END: Horizontal Menu -->
+              <!-- BEGIN: Topbar -->
+              <!-- END: Topbar -->
+            </div>
+            {% if type=='2' or type=='3' %}
+  <div class="m-stack__item m-brand  m-brand--skin-dark item_nav hide">
+              <!-- <div class="m-stack m-stack--ver m-stack--general">
+              <div class="m-stack__item m-stack__item--middle m-brand__logo">
+              <a href="index.html" class="m-brand__logo-wrapper">
+              <img alt="" src="/assets/demo/default/media/img/logo/logo_default_dark.png">
+            </a>
+          </div>
+
+        </div> -->
+        <div class="menu-flex ">
+          <div id="rmenu_frt" class="inner active">
+            <i class="flaticon-stopwatch"></i>
+          </div>
+          <div id="rmenu_sec"class="inner">
+            <i class="flaticon-rocket"></i>
+          </div>
+          <div id="rmenu_thr"class="inner">
+            <i class="flaticon-tea-cup"></i>
+          </div>
+        </div>
+      </div>
+
+
+  {% endif %}
+            
+    </div>
+  </div>
+</header>
+<!-- END: Header -->
+<!-- begin::Body -->
+<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+
+  <!-- BEGIN: Aside Menu -->
+  {% if type=='2' %}
+  <div id="m_aside_left" class="m-grid__item  m-aside-left  m-aside-left--skin-light " >
+    <div id="m_ver_menu" class="m-aside-menu normal-menu  m-aside-menu--skin-light m-aside-menu--submenu-skin-light theme-educarte-light" style="position: fixed; margin-top: 1%;" m-menu-vertical="1" m-menu-scrollable="0" m-menu-dropdown-timeout="500">
+      <form class="m-form">
+        <div class="form-group m-form__group" style="padding: 0 10px 0 10px;">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <div class="input-group-append">
+              <button class="btn btn-secondary" type="button"><i class="m-menu__ver-arrow flaticon-search"></i></button>
+            </div>
+          </div>
+        </div>
+        <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+          <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-layers"></i><span class="m-menu__link-text">INSTITUCIÓN EDUCATIVA</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+            <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+              <ul class="m-menu__subnav">
+                <li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">INSTITUCIÓN EDUCATIVA</span></span>
+                </li>
+                <li class="m-menu__item " aria-haspopup="true">
+                  <div class="m-form__group form-group">
+                    <div class="m-checkbox-list">
+                      <label class="m-checkbox">
+                        <input type="checkbox"> ALEJANDRO VÉLEZ
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox ">
+                        <input type="checkbox" > NORMAL SUPERIOR
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> LA PAZ
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> MUA
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> MARCELIANO VÉLEZ
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> COMERCIAL
+                        <span></span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+          <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-layers"></i><span class="m-menu__link-text">CATEGORIA</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+            <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+              <ul class="m-menu__subnav">
+                <li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">CATEGORIA</span></span>
+                </li>
+                <li class="m-menu__item " aria-haspopup="true">
+                  <div class="m-form__group form-group">
+                    <div class="m-checkbox-list">
+                      <label class="m-checkbox">
+                        <input type="checkbox"> ALEJANDRO VÉLEZ
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox ">
+                        <input type="checkbox" > NORMAL SUPERIOR
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> LA PAZ
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> MUA
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> MARCELIANO VÉLEZ
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> COMERCIAL
+                        <span></span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+          <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-layers"></i><span class="m-menu__link-text">CONTINENTE</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+            <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+              <ul class="m-menu__subnav">
+                <li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">CONTINENTE</span></span>
+                </li>
+                <li class="m-menu__item " aria-haspopup="true">
+                  <div class="m-form__group form-group">
+                    <div class="m-checkbox-list">
+                      <label class="m-checkbox">
+                        <input type="checkbox"> IMÁGENES
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox ">
+                        <input type="checkbox" > VIDEOS
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> AUDIO
+                        <span></span>
+                      </label>
+                      <label class="m-checkbox">
+                        <input type="checkbox"> DOCUMENTOS
+                        <span></span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+          <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-layers"></i><span class="m-menu__link-text">FECHA</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+            <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+              <ul class="m-menu__subnav">
+                <li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">FECHA</span></span>
+                </li>
+                <li class="m-menu__item " aria-haspopup="true">
+                  <div class="form-group m-form__group">
+                    <select class="form-control m-input form-control-sm" id="exampleSelect1">
+                      <option selected>Desde</option>
+                      <option>Hasta</option>
+                    </select>
+                    <select class="form-control m-input form-control-sm" id="exampleSelect2">
+                      <option selected>2018</option>
+                      <option>2017</option>
+                      <option>2016</option>
+                    </select>
+                    <select class="form-control m-input form-control-sm" id="exampleSelect3">
+                      <option selected>Enero</option>
+                      <option>Febrero</option>
+                      <option>Marzo</option>
+                      <option>Abril</option>
+                    </select>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <button type="reset" class="btn btn-secondary posit-bot-left">Aplicar Filtros</button>
+      </form>
+    </div>
+  </div>
+
+
+  {% endif %}
+
+  <!-- END: Aside Menu -->
+
+
+  <!-- BEGIN: Left Aside -->
+  <!-- Contenido central -->
+  <div class="m-grid__item m-grid__item--fluid m-wrapper">
+    <!-- Contenido  -->
+    <div class="m-content flex-container_wrap">
+      <!-- Ingrese contenico aca  -->
+      {% block contenido %}{% endblock %}
+    </div>
+    <!-- Fin Contenido  -->
+  </div>
+  {% if type=='2'  or type=='3'%}
+  <div class="m-grid__item m-aside-right" style="    width: 255px;">
+    <div class="m-first fix-con">
+      
+            <h3>UILTIMOS POST</h3> {% for p in all_post %}
+            <a href="/posts/detalle/{{p.id}}">
+                <div class="posts flex-container_wrap">
+                    <div class="image" style="background: url({{p.image}}); background-size: cover"></div>
+                    <div class="cont">
+                        <h4>{{p.title}}</h4>
+                        <p><small>{{p.ca}}</small></p>
+                        <p>{{p.text_post}}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        
+    </div>
+    <div class="m-second hide fix-con">
+        
+            <h3>POST POPULARES</h3> {% for p in all_post %}
+            <a href="/posts/detalle/{{p.id}}">
+                <div class="posts flex-container_wrap">
+                    <div class="image" style="background: url({{p.image}}); background-size: cover"></div>
+                    <div class="cont">
+                        <h4>{{p.title}}</h4>
+                        <p><small>{{p.ca}}</small></p>
+                        <p>{{p.text_post}}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        
+    </div>
+    <div class="m-third hide fix-con">
+    <h3>Categorias</h3>
+      {% for i in cat %}
+    <a href="/categoria/posts/{{i.id}}"><div class="categorias flex-container_wrap">
+        
+        <div class="image"> <img src="{{i.image}}" alt=""></div>  
+        <h4>{{ i.name}}</h4>      
+    </div></a>
+    
+    {% endfor %}
+    </div>
+  </div>
+
+  {% endif %}
+  <!--Fin Contenido central -->
+</div>
+
+
+<!-- Footer -->
+<footer class="m-grid__item   m-footer ">
+  <!-- ingrese footer -->
+</footer>
+<!-- Footer -->
+</div>
+<!--end::Page Snippets -->
+</div>
+</body>
+<!-- end::Body -->
+{% include 'masterIncludes/scripts/masterScripts.html' %} {% block scripts %}{% endblock %}
+<script type="text/javascript">
+if (window.innerWidth > 999) {
+  $('.item_nav').removeClass('hide')
+}
+$(document).ready(function(){
+  $('#rmenu_frt').click(function(){
+    $(this).addClass('active')
+    $('#rmenu_sec').removeClass('active')
+    $('#rmenu_thr').removeClass('active')
+    $('.m-first').removeClass('hide')
+    $('.m-second').addClass('hide')
+    $('.m-third').addClass('hide')
+  })
+  $('#rmenu_sec').click(function(){
+    $(this).addClass('active')
+    $('#rmenu_frt').removeClass('active')
+    $('#rmenu_thr').removeClass('active')
+    $('.m-first').addClass('hide')
+    $('.m-second').removeClass('hide')
+    $('.m-third').addClass('hide')
+  })
+  $('#rmenu_thr').click(function(){
+    $(this).addClass('active')
+    $('#rmenu_sec').removeClass('active')
+    $('#rmenu_frt').removeClass('active')
+    $('.m-first').addClass('hide')
+    $('.m-second').addClass('hide')
+    $('.m-third').removeClass('hide')
+  })
+})
+</script>
+</html>

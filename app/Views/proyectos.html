@@ -1,0 +1,157 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %} {% endblock %} {% block contenido %}
+<div class="col-xl-1">
+</div>
+<div class="col-xl-10">
+  <!-- Inicio de contenido -->
+  <div class="m-portlet">
+    <div class="m-portlet__head">
+      <div class="m-portlet__head-caption">
+        <div class="m-portlet__head-title">
+        <h3 class="m-portlet__head-text theme_trebol_green_font"><i class="m-menu__link-icon icon-tittle  la la-bullseye" style="font-size: 2.3rem;"></i>Todos los proyectos</h3>
+        </div>
+      </div>
+      <div class="m-portlet__head-tools">
+       {% if usd.rol == 1%}
+       <a href="/proyectos/nuevo/" class="new_item_1"><button class="btn btn-info m-btn m-btn--icon ">Crear nuevo proyecto</button></a>
+       {% endif %}
+     </div>
+   </div>
+   <div class="m-portlet__body">
+    <div class="buscador_form container-flex-row" style="margin-bottom: 1%">
+      <div class="with-30">
+        <div class="m-input-icon m-input-icon--left">
+          <input type="text" class=" quicksearch form-control m-input" placeholder="Buscar proyecto">
+          <span class="m-input-icon__icon m-input-icon__icon--left"><span><i class="la la-search"></i></span></span>
+        </div>
+      </div>
+      <!-- <div class="with-30" style="margin-left: 2%; width: 60%">
+        <div class="m-input-icon m-input-icon--left" >
+        <label for="exampleSelect1" style=" display: inline-block;">Carácter del proyecto:</label>
+         <select class=" filters-select form-control m-input m-input--square" id="exampleSelect1" style="width: 30%; height: 3.3em;    display: inline-block;">
+          <option value=".hide-toshow">Mostrar todos</option>
+          <option value=".Privado">Privado</option>
+          <option value=".Publico">Publico</option>
+        </select>
+        <span class="m-input-icon__icon m-input-icon__icon--left" style="    left: 176px;"><span><i class="la la-filter"></i></span></span>
+      </div>
+    </div> -->
+  </div>    
+  <div class="grid">
+    <div class="container-flex-row ie-search">
+
+      {% for pr in proyecto %}
+      <div class="container-flex-row active close-child element-item hide-toshow proyecto_cont transition   {{pr.active == 1 ? '': 'inactive'}}{{ pr.tag|replace({',':' '}) }}" id="user_thumb_{{loop.index}}" style="max-width: 239px">
+        <a href="/proyectos/detalle/{{pr.id}}" style="    width: 100%;"><div class="image_item30" style="background: url({{pr.image}}); background-size: cover; background-repeat: no-repeat;">          
+        </div></a>
+        <div class="conte_item30" >
+          <h2 class="nombres">{{pr.name|length > 20 ? pr.name[:20]~'...' :  pr.name}}</h2>
+          <p class="hide">{{pr.tag}}</p>
+          <ul>
+            <li>
+            <span><i class="la la-shield"></i></span>
+            <span>{{pr.institutionname}}</span>
+            </li>
+            <li>
+            <span><i class="la la-building"></i></span>
+            <span>{{pr.categoryname}}</span>
+            </li>
+          </ul>
+          
+            {% for p in usd.permisos %} 
+            {% if p.nombre == 'usuarios' %} 
+            <div class="btn-group  thumb-action-buttons" role="group" aria-label="First group">
+              {% if p.u == 1 or pr.id_cf == usd.id %}
+              <!-- poner boton editar -->
+              <a href="/proyectos/editar/{{pr.id}}" class="m-btn btn btn-primary"><i class="la la-edit"></i></a>                      
+              {% endif %}
+              {% if p.r == 1 %}
+              <a href="/proyectos/detalle/{{pr.id}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a>
+
+              {% endif %}
+              {% if p.d == 1 and pr.active == 1   %}
+              {% if pr.id_cf == usd.id or usd.rol == 1%}
+              <!-- poner boton eliominar -->
+              <!-- <button type="button" class="m-btn btn btn-danger" data-toggle="modal" data-target="#m_modal_{{count}}"><a href=""><i class="la la-remove"></i></a></button>  -->
+              <button type="button" class="m-btn btn btn-danger confirm_action_data" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_delete"><i class="la la-remove"></i></button> 
+              {% endif %}
+              {% endif %}
+              {% if p.u == 1 and pr.active != 1 %}                   
+              <button type="button" class="m-btn btn btn-primary confirm_action_activate" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_active"><i class="la la-check"></i></button> 
+              {% endif %}
+            </div>
+            {% endif %} 
+            {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <button type="button" id="loadMorePr" class=" button_ver btn b-plus btn-metal">
+    Ver más
+  </button>
+</div>
+</div>
+<!-- Final de contenido -->
+</div>
+<div class="col-xl-1">
+  <!--begin:: Widgets/Blog-->
+  <!--end:: Widgets/Blog-->
+</div>
+<!-- Modales -->
+{% if usd.rol == 1 %}
+<div class="modal fade" id="m_modal_confirm_delete" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <!-- <form action=""> -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Eliminar proyecto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>¿Esta seguro que desea eliminar el proyecto?</h4>
+        <!-- <input type="text" value="{{u.id}}" class="hide" name="id_user_delete"> -->
+      </div>
+      <div class="modal-footer">
+       <form id="frm_confirm_delete">
+        <input type="hidden" name="token" value="{{token}}">
+        <input type="hidden" name="id_clover_delete" value="" id="id_clover_delete">
+        <button class="btn btn-primary" type="submit "  id="btn_confirm_delete"> Aceptar</button>
+      </form>                                
+      <!-- </form> -->
+      <button class="btn btn-danger" data-dismiss="modal"> Cancelar</button>                        
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="m_modal_confirm_active" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <!-- <form action=""> -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Restaurar proyecto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>¿Esta seguro que desea restaurar el proyecto?</h4>
+        <!-- <input type="text" value="{{u.id}}" class="hide" name="id_user_delete"> -->
+      </div>
+      <div class="modal-footer">
+       <form id="frm_confirm_restore">
+        <input type="hidden" name="token" value="{{token}}">
+        <input type="hidden" name="id_clover_restore" value="" id="id_clover_restore">
+        <button class="btn btn-primary" type="submit "  id="btn_confirm_restore"> Aceptar</button>
+      </form>                                
+      <!-- </form> -->
+      <button class="btn btn-danger" data-dismiss="modal"> Cancelar</button>                        
+    </div>
+  </div>
+</div>
+</div>
+{% endif %}
+{% endblock %} {% block scripts %}
+<script src="/assets/app/js/proyecto.js" type="text/javascript"></script>
+{% endblock %}

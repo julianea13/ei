@@ -1,0 +1,165 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %} {% endblock %} {% block contenido %}
+<div class="col-xl-1">
+</div>
+<div class="col-xl-10">
+<!--begin:: Widgets/Activity-->
+<div class="m-portlet m-portlet--bordered-semi m-portlet--widget-fit m-portlet--full-height m-portlet--skin-light  m-portlet--rounded-force">
+<div class="m-portlet__head">
+<div class="m-portlet__head-caption">
+<div class="m-portlet__head-title">
+<h2 class="m-portlet__head-text m--font-light theme_trebol_green_font">
+<i class="m-menu__link-icon icon-tittle  la la-shield" style="font-size: 2.3rem;"></i>
+Todas las Instituciones
+</h1>
+</div>
+</div>
+<div class="m-portlet__head-tools">
+{% if usd.rol == 1%}
+<a href="/instituciones/nuevo/" class="new_item_1"><button class="btn btn-info m-btn m-btn--icon">Crear nueva institucion</button></a>
+{% endif %}
+</div>
+<div class="m-portlet__head-tools">
+<!-- Buscador instituciones  -->      
+<!-- Buscador instituciones  -->
+</div>
+</div>
+<div class="m-portlet__body">
+<div class="m-portlet__body">
+<div class="buscador_form container-flex-row" style="margin-bottom: 1%">
+<div class="with-30">
+<div class="m-input-icon m-input-icon--left">
+<input type="text" class=" quicksearch form-control m-input" placeholder="Buscar proyecto">
+<span class="m-input-icon__icon m-input-icon__icon--left"><span><i class="la la-search"></i></span></span>
+</div>
+</div>
+ <!-- <div class="with-30" style="margin-left: 2%; width: 60%">
+        <div class="m-input-icon m-input-icon--left" >
+        <label for="exampleSelect1" style=" display: inline-block;">Carácter de la institución:</label>
+         <select class=" filters-select form-control m-input m-input--square" id="exampleSelect1" style="width: 30%; height: 3.3em;    display: inline-block;">
+          <option value=".item-inst">Mostrar todos</option>
+          <option value=".Privado">Privado</option>
+          <option value=".Publico">Publico</option>
+        </select>
+        <span class="m-input-icon__icon m-input-icon__icon--left" style="    left: 205px;"><span><i class="la la-filter"></i></span></span>
+      </div>
+    </div> -->
+</div>
+<div class="m-widget17">
+<!-- <div class="m-widget17__visual m-widget17__visual--chart m-portlet-fit--top m-portlet-fit--sides todas-inst-head">
+<div class="m-widget17__chart" style="height:112px;">
+</div>
+</div> -->
+<div class="grid">
+<section class="container-flex-row ie-search">
+
+{% for i in ins %}
+<article class="item-inst close-child element-item transition metal  {{i.active == 1 ? '': 'inactive'}} inst-edu inner-flex-inst " id="user_thumb_{{loop.index}}" data-category="transition" >
+<div class="inst-icon" style="background: url({{i.image}}); background-size: cover; background-repeat: no-repeat;">
+</div>
+<div class="inst-content">             
+<strong>
+<h2 class="nombres">{{i.name}}</h2>
+</strong>
+<p><span><i class="la la-building"></i></span><span>&nbsp;Sede principal</span></p>
+<p><span><i class="la la-connectdevelop"></i></span><span>&nbsp;{{i.municipio}}</span></p>
+</div>
+<div class="inst-resume">
+<i class="m-menu__link-icon la la-bullseye"></i> <span>{{i.proyectos}}</span>
+<br>
+<!-- <i class="m-menu__link-icon la  la-user"></i> <span>{{i.participantes}}</span> -->
+</div>
+<div class="vertical-container">
+{% for p in usd.permisos %}
+{% if p.nombre == 'usuarios' %}                    
+{% if p.u == 1 %}
+<!-- poner boton editar -->
+<a href="/instituciones/editar/{{i.id}}" class="m-btn btn btn-primary">
+<i class="la la-edit"></i>
+</a>
+{% endif %}
+{% if p.r == 1 %}
+<a href="/instituciones/detalle/{{i.id}}" class="m-btn btn btn-success">
+<i class="la la-eye"></i>
+</a>
+{% endif %}
+{% if p.d == 1 and i.active == 1 %}
+<button type="button" class="m-btn btn btn-danger confirm_action_data" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{i.id}}" data-target="#m_modal_confirm_delete"><i class="la la-remove"></i></button>
+{% endif %} {% if p.u == 1 and i.active != 1 %}
+<button type="button" class="m-btn btn btn-primary confirm_action_activate" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{i.id}}" data-target="#m_modal_confirm_active"><i class="la la-check"></i></button>
+{% endif %}
+{% endif %}
+{% endfor %}
+</div>                
+</article>
+{% endfor %}        
+</section>
+<button type="button" id="loadMorePr" class="btn button_ver b-plus btn-metal">
+Ver más
+</button>
+</div>
+</div>
+</div>
+</div>
+<!--end:: Widgets/Activity-->
+</div>
+<div class="col-xl-1">
+<!--begin:: Widgets/Blog-->
+<!--end:: Widgets/Blog-->
+</div>
+<!-- Modales -->
+{% if usd.rol == 1 %}
+<div class="modal fade" id="m_modal_confirm_delete" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-sm" role="document">
+<div class="modal-content">
+<!-- <form action=""> -->
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Eliminar institución</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body">
+<h4>¿Esta seguro que desea eliminar la institucion?</h4>
+<!-- <input type="text" value="{{u.id}}" class="hide" name="id_user_delete"> -->
+</div>
+<div class="modal-footer">
+<form id="frm_confirm_delete">
+<input type="hidden" name="token" value="{{token}}">
+<input type="hidden" name="id_institucion_delete" value="" id="id_institucion_delete">
+<button class="btn btn-primary" type="submit " id="btn_confirm_delete"> Aceptar</button>
+</form>
+<!-- </form> -->
+<button class="btn btn-danger" data-dismiss="modal"> Cancelar</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="m_modal_confirm_active" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-sm" role="document">
+<div class="modal-content">
+<!-- <form action=""> -->
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Restaurar institución</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body">
+<h4>¿Esta seguro que desea restaurar la institución?</h4>
+<!-- <input type="text" value="{{u.id}}" class="hide" name="id_user_delete"> -->
+</div>
+<div class="modal-footer">
+<form id="frm_confirm_restore">
+<input type="hidden" name="token" value="{{token}}">
+<input type="hidden" name="id_institucion_restore" value="" id="id_institucion_restore">
+<button class="btn btn-primary" type="submit " id="btn_confirm_restore"> Aceptar</button>
+</form>
+<!-- </form> -->
+<button class="btn btn-danger" data-dismiss="modal"> Cancelar</button>
+</div>
+</div>
+</div>
+</div>
+{% endif %} {% endblock %} {% block scripts %}
+<script src="/assets/app/js/newIns.js" type="text/javascript"></script>
+{% endblock %}

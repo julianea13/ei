@@ -1,0 +1,2383 @@
+___________                            ___.                  .__                            
+\_   _____/_____________  ___________  \_ |__ ___.__.   ____ |  |   _______  __ ___________ 
+ |    __)_\_  __ \_  __ \/  _ \_  __ \  | __ <   |  | _/ ___\|  |  /  _ \  \/ // __ \_  __ \
+ |        \|  | \/|  | \(  <_> )  | \/  | \_\ \___  | \  \___|  |_(  <_> )   /\  ___/|  | \/
+/_______  /|__|   |__|   \____/|__|     |___  / ____|  \___  >____/\____/ \_/  \___  >__|   
+        \/                                  \/\/           \/                      \/       
+        _______       ____                                                                  
+___  __ \   _  \     /_   |                                                                 
+\  \/ / /  /_\  \     |   |                                                                 
+ \   /  \  \_/   \    |   |                                                                 
+  \_/ /\ \_____  / /\ |___|                                                                 
+      \/       \/  \/  
+
+
+
+======================== 14/03/2018 11:05:41 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 27 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'clovers' at line 1
+
+======================== 14/03/2018 11:57:43 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 59 - Error: 
+
+======================== 14/03/2018 11:57:43 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 11:57:47 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 11:58:44 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 59 - Error: 
+
+======================== 14/03/2018 11:58:44 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 11:59:28 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 62 - Error: 
+
+======================== 14/03/2018 12:04:11 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error: 
+
+======================== 14/03/2018 12:06:40 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error: 
+
+======================== 14/03/2018 12:07:01 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error: 
+
+======================== 14/03/2018 12:08:16 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:08:46 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:08:47 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:12:04 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:12:17 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:14:54 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:16:02 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:16:08 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:16:56 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:16:56 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:21:53 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:22:56 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+
+======================== 14/03/2018 12:35:40 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\User - Function: getParticipants - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 65 - Error: 
+
+======================== 14/03/2018 13:40:50 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+
+======================== 14/03/2018 13:40:59 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+
+======================== 14/03/2018 13:41:58 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+
+======================== 14/03/2018 13:42:36 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+
+======================== 14/03/2018 13:43:19 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+
+======================== 14/03/2018 13:44:24 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: Query was empty
+
+======================== 14/03/2018 14:13:34 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getFromInstitution - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 48 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '::value' at line 1
+
+======================== 14/03/2018 14:13:48 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getFromInstitution - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 48 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '::value' at line 1
+
+======================== 20/03/2018 11:45:48 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Institutions - Function: getId - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 94 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS 'instituciones' FROM institutions WHERE (SELECT MAX(id_institution) from inst' at line 1
+
+======================== 20/03/2018 11:46:37 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Institutions - Function: getId - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 94 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS 'instituciones' FROM institutions WHERE (SELECT MAX(id_institution) from inst' at line 1
+
+======================== 22/03/2018 14:02:03 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:02:10 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:02:16 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:02:30 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:02:45 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:03:29 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:05:39 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:05:45 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:05:53 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:07:30 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error: 
+
+======================== 22/03/2018 14:07:37 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error: 
+
+======================== 22/03/2018 14:08:11 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error: 
+
+======================== 22/03/2018 14:08:48 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:10:33 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:12:56 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:15:52 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 22/03/2018 14:16:04 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:55:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:15 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:56:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 14:57:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:01:26 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:01:31 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:01:32 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:02:00 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:02:00 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:20:42 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:21:13 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:32:23 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:32:24 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:32:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:39:37 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:41:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:56:37 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:56:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:56:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:57:51 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:58:05 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:58:09 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:58:16 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:58:24 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 15:58:31 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 16:00:36 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 16:00:39 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 16:03:30 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 16:03:34 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 16:38:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 28/03/2018 16:38:45 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 10:28:24 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 10:28:33 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 10:28:40 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 10:30:27 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 10:56:17 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Franchises - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Sedes.php- Line: 24 - Error: Unknown column 'f.id_frachise' in 'field list'
+
+======================== 02/04/2018 11:03:36 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 11:24:51 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 11:24:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 11:25:13 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 11:25:29 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 11:26:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 11:27:09 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:38:10 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:56 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:52:57 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:11 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:12 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:17 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 14:57:21 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 15:00:43 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 15:00:54 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 15:01:37 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 15:11:57 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\User - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 26 - Error: Unknown column 'u.activo' in 'where clause'
+
+======================== 02/04/2018 15:59:30 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 02/04/2018 16:16:13 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 11:47:38 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 11:47:47 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 11:53:51 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 11:56:44 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 11:56:50 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 11:57:34 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 12:00:07 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 12:00:30 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 12:00:39 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 12:00:42 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 04/04/2018 12:08:46 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Controllers\Proyectos - Function: proyecto - File: - Line:  - Error: No tienes permiso
+
+======================== 04/04/2018 12:08:49 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Controllers\Proyectos - Function: proyecto - File: - Line:  - Error: No tienes permiso
+
+======================== 04/04/2018 12:12:55 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: doblell@gmail.com - Class: ThisApp\Controllers\Proyectos - Function: proyecto - File: - Line:  - Error: No tienes permiso
+
+======================== 05/04/2018 14:17:54 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Franchises - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Sedes.php- Line: 26 - Error: Unknown column 'i.active' in 'field list'
+
+======================== 13/04/2018 14:47:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 14:48:19 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 14:48:55 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getAllMe - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 50 - Error: Unknown column 'us.id' in 'where clause'
+
+======================== 13/04/2018 14:49:45 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getAllMe - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 50 - Error: Unknown column 'us.id' in 'where clause'
+
+======================== 13/04/2018 14:49:52 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getAllMe - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 50 - Error: Unknown column 'us.id' in 'where clause'
+
+======================== 13/04/2018 14:53:51 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 14:54:18 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 14:54:39 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 14:54:42 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 14:54:51 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:05:20 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:05:37 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: usuario@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:07:22 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:07:39 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:09:29 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:09:53 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: usuario@gmail.com - Class: ThisApp\Controllers\Proyectos - Function: proyecto - File: - Line:  - Error: No tienes permiso
+
+======================== 13/04/2018 15:11:06 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 15:15:02 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 22:27:47 ========================
+
+Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\trebol\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 13/04/2018 22:28:45 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 199 - Error: 
+
+======================== 13/04/2018 22:28:45 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 199 - Error: 
+
+======================== 14/04/2018 00:15:45 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 29 - Error: Unknown column 'c.active' in 'field list'
+
+======================== 14/04/2018 00:19:43 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 29 - Error: Unknown column 'c.active' in 'field list'
+
+======================== 14/04/2018 14:40:52 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Franchises - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Sedes.php- Line: 26 - Error: Query was empty
+
+======================== 14/04/2018 14:41:13 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Franchises - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Sedes.php- Line: 26 - Error: Query was empty
+
+======================== 14/04/2018 15:11:56 ========================
+
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getAll - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 29 - Error: Query was empty
+
+======================== 16/04/2018 16:09:06 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 11:57:38 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 11:58:00 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 11:58:29 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 11:59:24 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:00:39 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:00:46 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:01:18 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:05:09 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:05:16 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:05:34 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 17/04/2018 12:10:57 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/04/2018 11:19:46 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/04/2018 11:20:17 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/04/2018 11:20:23 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/04/2018 11:33:17 ========================
+
+Code: 403 - Client: 190.217.101.26 - User: alonsoloaiza@gmail.com - Class: ThisApp\Core\Router - Function: __construct - File: /srv/users/serverpilot/apps/trebol/public/index.php- Line: 8 - Error: No tiene permiso
+
+======================== 19/04/2018 15:09:17 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Institutions - Function: getAll - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Instituciones.php- Line: 27 - Error: Unknown column 't.active' in 'field list'
+
+======================== 19/04/2018 15:12:23 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Institutions - Function: getAll - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Instituciones.php- Line: 27 - Error: Unknown column 't.active' in 'field list'
+
+======================== 19/04/2018 15:12:29 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Institutions - Function: getAll - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Instituciones.php- Line: 27 - Error: Unknown column 't.active' in 'field list'
+
+======================== 20/04/2018 12:56:12 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 20/04/2018 12:57:39 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 20/04/2018 12:58:34 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 20/04/2018 12:58:45 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 20/04/2018 12:59:01 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 20/04/2018 13:00:16 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 20/04/2018 13:02:48 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+
+======================== 23/04/2018 15:52:23 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getParticipantsInstitutions - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Instituciones.php- Line: 128 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where i.id_institution = '8' and u.active=1' at line 1
+
+======================== 23/04/2018 16:01:20 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getParticipants - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 220 - Error: Unknown column 'c.id_clover' in 'where clause'
+
+======================== 24/04/2018 11:14:00 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Usuarios.php- Line: 166 - Error: 
+
+======================== 24/04/2018 11:17:07 ========================
+
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Usuarios.php- Line: 166 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as ' clovers', (select count(id) from users where id_franchise = f.id_franchise)' at line 1
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:11 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:12 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:17 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:21 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:51 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:52 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 30/05/2018 09:29:52 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getGender - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 34 - Error: Table 'escuela.genders' doesn't exist
+
+======================== 14/06/2018 14:36:41 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getMenuByRol - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 187 - Error: Table 'escuela.menus' doesn't exist
+
+======================== 14/06/2018 14:36:48 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getMenuByRol - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 187 - Error: Table 'escuela.menus' doesn't exist
+
+======================== 14/06/2018 14:44:05 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getMenuByRol - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 187 - Error: Table 'escuela.menus' doesn't exist
+
+======================== 14/06/2018 14:44:27 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getMenuByRol - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 187 - Error: Table 'escuela.menus' doesn't exist
+
+======================== 14/06/2018 14:44:42 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\User - Function: getMenuByRol - File: C:\xampp\htdocs\ei\app\Controllers\Login.php- Line: 187 - Error: Table 'escuela.menus' doesn't exist
+
+======================== 18/06/2018 09:45:16 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/06/2018 09:46:49 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/06/2018 09:48:11 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/06/2018 10:01:14 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 8 - Error: No tiene permiso
+
+======================== 18/06/2018 13:32:45 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\Proyectos - Function: getSingle - File: C:\xampp\htdocs\ei\app\Controllers\Proyectos.php- Line: 50 - Error: Table 'escuela.proyects' doesn't exist
+
+======================== 20/06/2018 14:11:38 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:11:51 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:12:43 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:13:28 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:13:42 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:13:54 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:13:58 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:15:21 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 20/06/2018 14:17:31 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+

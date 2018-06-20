@@ -1,0 +1,145 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %} {% endblock %} {% block contenido %}
+<div class="banner_top">
+    <div class="banner-cont">
+        <img src="https://placehold.it/1280x300" alt="">
+    </div>
+</div>
+<div class="search">
+    <div class="m-input-icon m-input-icon--right">
+        <input type="text" class="form-control m-input">
+        <span class="m-input-icon__icon m-input-icon__icon--right"><span><i class="la la-search"></i></span></span>
+                                            <button type="button" class="btn btn-success"> Buscar</button>
+
+    </div>
+</div>
+<div class="cont_flex flex-container_wrap">
+    <div class="category">
+        <h3>CATEGORIAS POPULARES</h3>
+        <div class="category_cont flex-container">
+            <div class="left-arrow hide">
+                <</div>
+                    {% for c in cat %}
+                    <a href="/categoria/posts/{{c.id}}" class="cont_category"><img src="{{c.image}}" alt="{{c.image}}"></a>
+                    {% endfor %}
+                    <div class="right-arrow">></div>
+            </div>
+     </div>
+        <div class="contenido__video">
+            <div class="video flex_container">
+                <iframe src="https://www.youtube.com/embed/VYOjWnS4cMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="text_normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, laboriosam. Aut deleniti nihil ipsum consequatur delectus cumque ipsam numquam? Quaerat sapiente itaque pariatur. Laudantium iste quasi animi eveniet sunt tempora?</div>
+        </div>
+        <div class="contenido__posts">
+            <h3>ULTIMOS POST</h3> {% for p in post %}
+            <a href="/posts/detalle/{{p.id}}">
+                <div class="posts flex-container_wrap">
+                    <div class="image" style="background: url({{p.image}}); background-size: cover"></div>
+                    <div class="cont">
+                        <h4>{{p.title}}</h4>
+                        <p><small>{{p.ca}}</small></p>
+                        <p>{{p.text_post}}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        <div class="contenido__postsP">
+            <h3>POST POPULARES</h3> {% for p in postV %}
+            <a href="/posts/detalle/{{p.id}}">
+                <div class="posts flex-container_wrap">
+                    <div class="image" style="background: url({{p.image}}); background-size: cover"></div>
+                    <div class="cont">
+                        <h4>{{p.title}}</h4>
+                        <p><small>{{p.ca}}</small></p>
+                        <p>{{p.text_post}}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        <div class="contenido__text">
+            <h3>LOREM IPSUM</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, praesentium qui quam temporibus pariatur. Fuga totam, fugit dicta ab dolores, assumenda illo aliquam nihil incidunt harum distinctio officia quod illum?</p>
+        </div>
+        <div class="contenido__publicity home_publicity flex-container_wrap">
+            {% for pl in publ %}
+            <div class="publicity ">
+                <a href="{{pl.link}}" target="_blank"><img src="{{pl.image}}" alt=""></a>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- <div class="contenido__general">
+            <form>
+                <div class="input-group login-frm m-input-group">
+                    <div class="input-group-prepend"><span class="input-group-text">Usuario&nbsp&nbsp&nbsp&nbsp</span></div>
+                    <input type="text" class="form-control m-input" placeholder="Usuario" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group login-frm m-input-group">
+                    <div class="input-group-prepend"><span class="input-group-text">Password</span></div>
+                    <input type="password" class="form-control m-input" placeholder="Password" aria-describedby="basic-addon1">
+                </div>
+                <input type="submit" value="Ingresar" class="btn login-frm btn-primary m-btn m-btn--icon">
+            </form>
+        </div> -->
+</div>
+    <!-- <h1>CATEGORIAS</h1> 
+
+ 
+
+  -->
+
+{% endblock %} {% block scripts %}
+<script>
+$(".posts .cont p").each(function() {
+    var textMaxChar = 60;
+    length = $(this).text().length;
+    if (length > textMaxChar) {
+        $(this).text($(this).text().substr(0, textMaxChar) + '...');
+    }
+});
+
+var i = 0;
+var i1 = 1;
+var max = $('.cont_category').length
+
+
+
+
+if (window.innerWidth < 999) {
+    $(".cont_category").slice(0, 1).addClass('block');
+
+}
+
+$('.left-arrow').on('click', function() {
+    $(".cont_category").slice(i, i1).removeClass('block');
+    i--
+    i1--
+    console.log('entre' + i)
+    console.log('hasta' + i1)
+    $(".cont_category").slice(i, i1).addClass('block');
+    if (i <= 0) {
+        $('.left-arrow').addClass('hide')
+    }
+    if (i1 < max) {
+        $('.right-arrow').removeClass('hide')
+    }
+})
+$('.right-arrow').on('click', function() {
+    $(".cont_category").slice(i, i1).removeClass('block');
+    i++
+    i1++
+    console.log('entre' + i)
+    console.log('hasta' + i1)
+    $(".cont_category").slice(i, i1).addClass('block');
+
+    if (i1 == max) {
+        $('.right-arrow').addClass('hide')
+    }
+    if (i > 0) {
+        $('.left-arrow').removeClass('hide')
+    }
+
+})
+</script>
+{% endblock %}

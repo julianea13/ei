@@ -1,0 +1,22 @@
+{
+    "name": "alosno/framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deivid Cardona",
+            "email": "alonsoloaiza@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/http": "^5.3",
+        "mailgun/mailgun-php": "^2.5",
+        "twig/twig": "^2.4",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4":{
+            "ThisApp\\": "app/"
+        }
+    }
+}

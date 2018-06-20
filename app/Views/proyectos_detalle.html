@@ -1,0 +1,290 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %}
+<style>
+div[id$="-error"] {
+    color: tomato;
+}
+</style>
+{% endblock %} {% block contenido %}
+<div class="row">
+    <div class="col-xl-2">
+    </div>
+    <div class="col-xl-8">
+        <!--begin:: Widgets/Activity-->
+        <!-- Nombre proyecto -->
+        <div class="m-portlet m-portlet--mobile">
+            <div class="m-portlet__body">
+                <div class="container-flex-row">
+                    <div class="width-100 tags_name container-flex-row"></div>
+                </div>
+            </div>
+        </div>
+        <!-- TAGS -->
+        <!-- Nombre proyecto -->
+        <div class="m-portlet m-portlet--mobile">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title" style="width: 100%">
+                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-bullseye" style="font-size: 2.3rem;"></i>{{proyecto.name}}
+              <small style="display: INHERIT; padding-left: 0; padding-top: 5px"> {{proyecto.franchise_name}}
+
+              </small>
+            </h3>
+                        <div>
+                            <ul>
+                            </ul>
+                        </div>
+                        <small class="small-sub">             
+                <i class="m-menu__link-icon la  la-file"></i> <span>{{ files|length}}</span>                 
+                <i class="m-menu__link-icon la  la-history"></i> <span>{{ historial|length}}</span>                 
+            </small>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+                <div class="container-flex-row">
+                    <div class="width-100"> {{proyecto.description|raw}}</div>
+                </div>
+            </div>
+        </div>
+        <!-- Nombre I.E -->
+        <div class="m-portlet m-portlet--mobile">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title">
+                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-shield" style="font-size: 2.3rem;"></i>Institución</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+                <div class="container-flex-row">
+                    <section class="container-flex-row ie-search" style="width: 100%">
+                        <article class="item-inst close-child element-item transition metal {{proyecto.type_name}} {{proyecto.active == 1 ? '': 'inactive'}} inst-edu inner-flex-inst " id="user_thumb_{{loop.index}}" data-category="transition">
+                            <div class="inst-icon" style="background: url({{proyecto.image}}); background-size: cover; background-repeat: no-repeat;">
+                            </div>
+                            <div class="inst-content"> <strong><h2 class="nombres">{{proyecto.institution_name}}</h2></strong>
+                                <p><span><i class="la la-connectdevelop"></i></span><span>&nbsp;Sede principal</span></p>
+                                <p><span><i class="la la-building"></i></span><span>&nbsp;{{proyecto.municipio}}</span></p>
+                            </div>
+                            <div class="inst-resume">
+                                <i class="m-menu__link-icon la  la-user"></i> <span>{{proyecto.participantes}}</span>
+                            </div>
+                            <div class="vertical-container">
+                                {% for p in usd.permisos %} {% if p.nombre == 'usuarios' %} {% if p.r == 1 %}
+                                <a href="/instituciones/detalle/{{proyecto.id_institution}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a> {% endif %} {% endif %} {% endfor %}
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Participantes -->
+        <div class="m-portlet m-portlet--mobile">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title">
+                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-file" style="font-size: 2.3rem;"></i>Adjuntos</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+                {% for att in filesAtt %}
+                <div class="adjuntos_all images">
+                    {% if att.file_type == 2 %}
+                    <p> <i class="m-menu__link-icon la la-file-image-o"></i> <span>IMAGENES</span></p>
+                    {% for i in files %} {% if i.file_type == 2 %}
+                    <div class="image_files" data-src="{{i.contenido}}" data-toggle="modal" data-target="#image" style="background-image: url({{i.contenido}});"></div>
+                    {% endif %} {% endfor %} {% endif %}
+                </div>
+                <div class="adjuntos_all video">
+                    {% if att.file_type == 1 %}
+                    <p> <i class="m-menu__link-icon la  la-file-video-o"></i> <span>VIDEOS</span></p>
+                    {% for i in files %} {% if i.file_type == 1 %}
+                    <div data-toggle="modal" data-target="#video" data-src="{{i.contenido}}" data-title="{{i.name}}" data-description="{{i.description}}" class=" a_files videos_post files_cont">
+                        <div class="cont_files">
+                            <h4>{{i.name}}</h4> {{i.description}}
+                        </div>
+                        <div class="download_files"> <i class="la la-eye"></i>
+                        </div>
+                    </div>
+                    {% endif %} {% endfor %} {% endif %}
+                </div>
+                <div class="adjuntos_all audio">
+                    {% if att.file_type == 3 %}
+                    <p> <i class="m-menu__link-icon la la-file-audio-o"></i> <span>AUDIOS</span></p>
+                    {% for i in files %} {% if i.file_type == 3 %}
+                    <div class="flex-container_wrap a_files audios_post files_cont" data-src="{{i.contenido}}" data-title="{{i.name}}" data-description="{{i.description}}" data-toggle="modal" data-target="#audio">
+                        <div class="cont_files">
+                            <h4>{{i.name}}</h4> {{i.description}}
+                        </div>
+                        <div class="download_files"> <i class="la la-music"></i>
+                        </div>
+                    </div>
+                    {% endif %} {% endfor %} {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="m-portlet m-portlet--mobile">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title">
+                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-history" style="font-size: 2.3rem;"></i>Historial</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+                <div class="container-flex-row">
+                    <div class="m-timeline-1 m-timeline-1--fixed">
+                        <div class="m-timeline-1__items">
+                            <div class="m-timeline-1__marker"></div>
+                            {% for h in historial %}
+                            <div class="m-timeline-1__item ">
+                                <div class="m-timeline-1__item-circle">
+                                    <div class="m--bg-danger"></div>
+                                </div>
+                                <div class="m-timeline-1__item-arrow"></div>
+                                <span class="m-timeline-1__item-time m--font-brand">{{h.ca|date("Y/m/d")}}</span>
+                                <div class="m-timeline-1__item-content">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            {{h.description}}                                            
+                                        </div>
+                                        <div class="col-md-8"> 
+                                        {% for hi in files_historial %} 
+                                        {% if hi.id_belongs == h.id and hi.file_type == 1 %}
+                                            <i class="m-menu__link-icon la la-file-video-o"></i> 
+                                        {% endif %}
+                                        {% if hi.id_belongs == h.id and hi.file_type == 2 %}
+                                            <i class="m-menu__link-icon la la-file-image-o"></i>
+                                        {% endif %} 
+                                        {% if hi.id_belongs == h.id and hi.file_type == 3 %}
+                                            <i class="m-menu__link-icon la la-file-audio-o"></i>
+                                        {% endif %} 
+                                        {% endfor %}</div>
+                                        <div class="col-md-3">
+                                            <a href="/historial/detalle/{{h.id}}" class="btn btn-sm m-btn--custom m-btn--pill  btn-danger">
+                                                Ver mas
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>                    
+                </div>
+                <a href="/Historial/nuevo/9gBel11N7hgzEZQFmg6iqg==/{{proyecto.id}}" class="btn btn-sm m-btn--custom m-btn--pill  btn-danger">Crear nuevo historial</a>
+            </div>
+        </div>
+    </div>
+    <!--end:: Widgets/Activity-->
+</div>
+<div class="col-xl-2">
+    <!--begin:: Widgets/Blog-->
+    <!--end:: Widgets/Blog-->
+</div>
+</div>
+<!-- POPUPS -->
+<!-- video -->
+<div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 class="title-video">Modal title</h5></div>
+                    <div class="col-md-12"><i class="la la-file-movie-o"></i>VIDEOS</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 descrition_video">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et in deserunt facilis expedita, quia inventore beatae blanditiis nostrum pariatur numquam ullam at possimus soluta? Repudiandae aut, consequatur quia id possimus.</div>
+                    <div class="col-md-12">
+                        <video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" class="video_container" controls style="width: 100%">
+                            Tu navegador no implementa el elemento <code>video</code>.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- image -->
+<div class="modal fade" id="image" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content ">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <img class="image_popup" src="" style="width: 100%;">
+            <!-- contenido -->
+        </div>
+    </div>
+</div>
+<!-- audio -->
+<div class="modal fade" id="audio" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 class="title-sound">Modal title</h5></div>
+                    <div class="col-md-12"><i class="la la-file-sound-o"></i>AUDIOS</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 descrition_sound"></div>
+                    <div class="col-md-12">
+                        <audio src="audio.ogg" class="audio_cont" controls autoplay loop>
+                            <p>Tu navegador no implementa el elemento audio</p>
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} {% block scripts %}
+<script>
+var str = "";
+
+$.each("{{proyecto.tag}}".split(","), function(k, v) {
+
+    str += "<div class='tag'>" + v + "</div>"
+})
+setTimeout(function() { $('.tags_name').html(str) }, 0);
+
+$('.m-timeline-1__item').each(function(k, v) {
+
+    if (k % 2 == 0) {
+        $(this).addClass('m-timeline-1__item--left')
+    } else {
+        $(this).addClass('m-timeline-1__item--right')
+    }
+})
+
+$('.image_files').on('click', function() {
+    $('.image_popup').attr('src', $(this).data('src'))
+})
+
+$('.videos_post').on('click', function() {
+    $('.title-video').html($(this).data('title'))
+    $('.descrition_video').html($(this).data('description'))
+    $('.video_container').attr('src', $(this).data('src'))
+})
+
+$('.audios_post').on('click', function() {
+    $('.title-sound').html($(this).data('title'))
+    $('.descrition_sound').html($(this).data('description'))
+    $('.audio_cont').attr('src', $(this).data('src'))
+})
+</script>
+<script src="/assets/app/js/comments.js" type="text/javascript"></script>
+{% endblock %}

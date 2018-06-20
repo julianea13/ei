@@ -1,0 +1,314 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %} {% endblock %} {% block contenido %}
+<div class="col-xl-2">
+</div>
+<div class="col-xl-8">
+    <!-- Inicio de contenido -->
+    <div class="m-portlet">
+        <div class="m-portlet__head">
+            <div class="m-portlet__head-caption">
+                <div class="m-portlet__head-title">
+                    <h3 class="m-portlet__head-text theme_trebol_green_font">                          Nueva Institucion                       </h3>
+                </div>
+            </div>
+        </div>
+        <div class="m-portlet__body">
+            <form action="" id="newInstitute">
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Nombre de la institucion *</label>
+                    <input required type="text" class="form-control m-input" name="name" id="name">
+                </div>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Municipio *</label>
+                    <select class="form-control m-input--square" id="type" name="type">
+                        <option value="">Seleccione un Municipio</option>
+                        {% for r in type %}
+                        <option value="{{r.id_type}}">{{r.type_name}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Escudo de la institucion *</label>
+                    <div class="form-group m-form__group row">
+                        <div class="col-md-9 dropzone-container">
+                            <div class="m-dropzone custom_dropzone" id="img_update" data-container="body" data-toggle="m-popover" data-placement="top" data-content="Arrástra y suelta aquí la imagen del escudo de la insitutcion, o haz clic aquí y seleccionalo." data-original-title="" title="">
+                                <div class="m-dropzone__msg dz-message needsclick">
+                                    <h3 class="m-dropzone__msg-title">
+                                Ingresar el escudo de la institucion
+                            </h3>
+                                    <span class="m-dropzone__msg-desc">
+                                Haz clic aquí y selecciona una imágen o arrastra una imágen
+                                <br>
+                                Tamaño recomendado 200*200
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 image_drop"><img class="img_shield" src="/assets/app/media/img/default_ie.png" alt=""></div>
+                    </div>
+                    <input type="text" name="shield" id="shield" class="hide" value="/assets/app/media/img/default_ie.png">
+                    <span class="m-form__help">Si no ingresa una imagen, el sistema asignará una por defecto.</span>
+                </div>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Portada de la institucion *</label>
+                    <div class="form-group m-form__group row">
+                        <div class="col-md-9 dropzone-container">
+                            <div class="m-dropzone custom_dropzone" id="img_portada" data-container="body" data-toggle="m-popover" data-placement="top" data-content="Arrástra y suelta aquí la imagen del escudo de la insitutcion, o haz clic aquí y seleccionalo." data-original-title="" title="">
+                                <div class="m-dropzone__msg dz-message needsclick">
+                                    <h3 class="m-dropzone__msg-title">
+                                Ingresar la portada de la institucion
+                            </h3>
+                                    <span class="m-dropzone__msg-desc">
+                                Haz clic aquí y selecciona una imágen o arrastra una imágen
+                                <br>
+                                Tamaño recomendado 1000*300
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 image_drop"><img class="img_portada" src="/assets/app/media/img/banner_default.jpg" alt=""></div>
+                    </div>
+                    <input type="text" name="portada" id="portada" class="hide" value="/assets/app/media/img/banner_default.jpg">
+                    <input type="hidden" value="{{id_f}}" name="next" id="next">
+                    <span class="m-form__help">Si no ingresa una imagen, el sistema asignará una por defecto.</span>
+                </div>
+                <hr>
+                <input type="submit" id="enviar" class="btn btn-info" value="Crear institucion">
+                <a href="/instituciones" class="btn btn-danger"> <span>
+                     <i class="la la-close"></i>
+                      <span>Regresar</span>
+                 </span>
+                </a>
+            </form>
+        </div>
+        <div class="m-portlet__body">
+        </div>
+    </div>
+    <!-- Final de contenido -->
+</div>
+<div class="col-xl-2">
+    <!--begin:: Widgets/Blog-->
+    <!--end:: Widgets/Blog-->
+</div>
+{% endblock %} {% block scripts %}
+<script>
+var modalTemplate = ' <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Cortar imagen  </h4></div><div class="modal-body"><div class="image-container"></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button><button type="button" class="btn btn-primary crop-upload">Listo</button></div></div></div></div></div>'
+
+function dataURItoBlob(dataURI) {
+    var byteString = atob(dataURI.split(',')[1]);
+    var ab = new ArrayBuffer(byteString.length);
+    var ia = new Uint8Array(ab);
+    for (var i = 0; i < byteString.length; i++) {
+        ia[i] = byteString.charCodeAt(i);
+    }
+    return new Blob([ab], { type: 'image/jpeg' });
+}
+
+Dropzone.autoDiscover = false;
+var t = {};
+var img_update = new Dropzone('#img_update', {
+    dictFileTooBig: "El archivo pesa mas de 2MB.",
+    dictMaxFilesExceeded : "No puedes subir mas de una imagen.",
+    autoProcessQueue: false,
+    maxFiles: 1,
+    url: '/Imagenes/image/institutions/{{id_f}}/png',
+    paramName: "img",
+    maxFilesize: 2,
+    acceptedFiles: "image/*",
+    accept: function(file, done) {
+        done();
+    },
+    complete(a, b) {
+        //console.log(a);
+    },
+    success: function(m, r) {
+        console.log(r.status);
+        img_update.removeAllFiles(true);
+        if (r.status == 6) {
+            propuesta = r.idp;
+            let images = '.m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper img, .m-topbar__userpic img, .m-card-user .m-card-user__pic img';
+            // $(images).attr("src", "/uploads/images/users/"+r.msj+"?"+new Date().getTime());
+            $(images).attr("src", "/uploads/images/institutions/" + r.msj + "?" + new Date().getTime());
+            console.log("success", "Imágen cargada correctamente", "", "la la-cloud-upload")
+            var img = $('#shield').val()
+            d = new Date();
+            $('.img_shield').attr('src', img + '?' + d.getTime())
+            notify('Escudo de la instuticion agregado correctamente!', 'flaticon-exclamation-2', 'success')
+        } else {
+            notify('Hubo un error al subir la imagen', 'la la-warning', 'danger')
+        }
+
+    },
+    sending(a, b, c) {
+        //c.append("token", $("#token").val());
+    }
+});
+img_update.on('thumbnail', function(file) {
+    // ignore files which were already cropped and re-rendered
+    // to prevent infinite loop
+    if (file.cropped) {
+        return;
+    }
+    if (file.width < 200 && file.height < 200) {
+        $('#shield').attr('value', '/uploads/images/institutions/{{id_f}}/img.png');
+        return;
+    }
+    // cache filename to re-assign it to cropped file
+    var cachedFilename = file.name;
+    // remove not cropped file from dropzone (we will replace it later)
+    img_update.removeFile(file);
+
+    // dynamically create modals to allow multiple files processing
+    var $cropperModal = $(modalTemplate);
+    // 'Crop and Upload' button in a modal
+    var $uploadCrop = $cropperModal.find('.crop-upload');
+
+    var $img = $('<img />');
+    // initialize FileReader which reads uploaded file
+    var reader = new FileReader();
+    reader.onloadend = function() {
+        // add uploaded and read image to modal
+        $cropperModal.find('.image-container').html($img);
+        $img.attr('src', reader.result);
+        // initialize cropper for uploaded image
+        $img.cropper({
+            aspectRatio: 1 / 1,
+            autoCropArea: 1,
+            movable: false,
+            cropBoxResizable: true,
+            minContainerWidth: 755,
+            minContainerHeight: 657
+        });
+    };
+    // read uploaded file (triggers code above)
+    reader.readAsDataURL(file);
+
+    $cropperModal.modal('show');
+
+    // listener for 'Crop and Upload' button in modal
+    $uploadCrop.on('click', function() {
+        // get cropped image data
+        var blob = $img.cropper('getCroppedCanvas').toDataURL();
+
+
+         $('#shield').attr('value', '/uploads/images/institutions/{{id_f}}/img.png');
+        // transform it to Blob object
+        var newFile = dataURItoBlob(blob);
+        // set 'cropped to true' (so that we don't get to that listener again)
+        newFile.cropped = true;
+        // assign original filename
+        newFile.name = cachedFilename;
+
+        // add cropped file to dropzone
+        img_update.addFile(newFile);
+        // upload cropped file with dropzone
+        $cropperModal.modal('hide');
+    });
+});
+
+
+var img_portada1 = new Dropzone('#img_portada', {
+    dictFileTooBig: "El archivo pesa mas de 2MB.",
+    dictMaxFilesExceeded : "No puedes subir mas de una imagen.",
+    autoProcessQueue: false,
+    maxFiles: 1,
+    url: '/Imagenes/image/institutions/{{id_f}}/jpg',
+    paramName: "img",
+    maxFilesize: 2,
+    acceptedFiles: "image/*",
+     error: function(file, message) {
+       notify(message, 'la la-warning', 'danger')
+        this.removeFile(file);
+    },
+    accept: function(file, done) {
+        done();
+    },
+    complete(a, b) {
+        //console.log(a);
+    },
+    success: function(m, r) {
+        img_portada1.removeAllFiles(true);
+        if (r.status == 6) {
+            propuesta = r.idp;
+            let images = '.m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper img, .m-topbar__userpic img, .m-card-user .m-card-user__pic img';
+            // $(images).attr("src", "/uploads/images/users/"+r.msj+"?"+new Date().getTime());
+            $(images).attr("src", "/uploads/images/institutions/" + r.msj + "?" + new Date().getTime());
+            console.log("success", "Imágen cargada correctamente", "", "la la-cloud-upload")
+            var img = $('#portada').val()
+            d = new Date();
+            $('.img_portada').attr('src', img + '?' + d.getTime())
+            notify('Portada de la instuticion agregado correctamente!', 'flaticon-exclamation-2', 'success')
+        } else {
+            notify('Hubo un error al subir la imagen', 'la la-warning', 'danger')
+        }
+    },
+    sending(a, b, c) {
+        //c.append("token", $("#token").val());
+    }
+});
+
+img_portada1.on('thumbnail', function(file) {
+    // ignore files which were already cropped and re-rendered
+    // to prevent infinite loop
+    if (file.cropped) {
+        return;
+    }
+    if (file.width < 1300 && file.height < 300) {
+        $('#posrtada').attr('value', '/uploads/images/institutions/{{id_f}}/img.jpg');
+        return;
+    }
+    // cache filename to re-assign it to cropped file
+    var cachedFilename = file.name;
+    // remove not cropped file from dropzone (we will replace it later)
+    img_portada1.removeFile(file);
+
+    // dynamically create modals to allow multiple files processing
+    var $cropperModal = $(modalTemplate);
+    // 'Crop and Upload' button in a modal
+    var $uploadCrop = $cropperModal.find('.crop-upload');
+
+    var $img = $('<img />');
+    // initialize FileReader which reads uploaded file
+    var reader = new FileReader();
+    reader.onloadend = function() {
+        // add uploaded and read image to modal
+        $cropperModal.find('.image-container').html($img);
+        $img.attr('src', reader.result);
+        // initialize cropper for uploaded image
+        $img.cropper({
+            aspectRatio: 3 / 1,
+            autoCropArea: 1,
+            movable: false,
+            cropBoxResizable: true,
+            minContainerWidth: 755,
+            minContainerHeight: 657
+        });
+    };
+    // read uploaded file (triggers code above)
+    reader.readAsDataURL(file);
+
+    $cropperModal.modal('show');
+
+    // listener for 'Crop and Upload' button in modal
+    $uploadCrop.on('click', function() {
+        // get cropped image data
+        var blob = $img.cropper('getCroppedCanvas').toDataURL();
+
+        $('#portada').attr('value', '/uploads/images/institutions/{{id_f}}/img.jpg');
+        // transform it to Blob object
+        var newFile = dataURItoBlob(blob);
+        // set 'cropped to true' (so that we don't get to that listener again)
+        newFile.cropped = true;
+        // assign original filename
+        newFile.name = cachedFilename;
+
+        // add cropped file to dropzone
+        img_portada1.addFile(newFile);
+        // upload cropped file with dropzone
+        $cropperModal.modal('hide');
+    });
+});
+
+
+</script>
+<script src="/assets/app/js/newIns.js" type="text/javascript"></script>
+{% endblock %}

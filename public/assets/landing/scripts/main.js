@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){(new WOW).init(),$(".next-section").on("click",function(t){if(""!==this.hash){t.preventDefault();var n=this.hash;$("html, body").animate({scrollTop:$(n).offset().top},800,function(){window.location.hash=n})}})});

@@ -1,0 +1,56 @@
+.m-login__wrapper .m-login__container .m-login__logo a img{
+	 max-width: 200px;
+}
+.m-brand__logo a.m-brand__logo-wrapper img {
+    max-width: 150px;
+}
+
+.select__custom {
+    width: 100%;
+    background: #f7f6f9;
+    color: #91899f;
+    border-radius: 40px;
+    border: none;
+    padding: 1.5rem 1.5rem;
+    margin-top: 1.5rem;
+}
+.select__custom:focus {
+    outline-width: 0;
+}
+select content{
+	outline-width: 0;	
+}
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.btn-group.bootstrap-select {
+    width: 100%!important;
+}
+.form-group .bootstrap-select button.dropdown-toggle {
+    width: 100%;
+    background: #f7f6f9!important;
+    color: #91899f!important;
+    border-radius: 40px!important;
+    border: none;
+    padding: 1.5rem 1.5rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 992px){
+	.m-brand__logo a.m-brand__logo-wrapper img {
+    max-width: 120px;
+}
+}
+@media (max-width: 380px){
+	.m-brand__logo a.m-brand__logo-wrapper img {
+    max-width: 100px;
+}
+}
+@media (max-width: 360px){
+	.m-brand__logo a.m-brand__logo-wrapper img {
+    max-width: 70px;
+}
+}
