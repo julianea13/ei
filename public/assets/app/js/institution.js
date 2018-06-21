@@ -1,7 +1,7 @@
-var snippedProyecto = function() {
+var snippedInstitutiono = function() {
 
     var frm_delete = $("#frm_confirm_delete"),
-        newProyect = function() {
+        newInstitution = function() {
             $("#enviar").on("click", function(e) {
                 e.preventDefault();
 
@@ -28,24 +28,24 @@ var snippedProyecto = function() {
                         }
                     }
                 }), form.valid() && (button.addClass("m-loader m-loader--right m-loader--light").attr("disabled", !0), form.ajaxSubmit({
-                    url: "/proyectos/crear/",
+                    url: "/instituciones/crear/",
                     proccessData: false,
                     success: function(rpta, l, s, o) {
                         console.log(rpta)
                         button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
                         if (rpta.status == 200) {
                              img_update.processQueue();
-                            window.location.replace("/proyectos/detalle/" + $('#next').val());
+                            window.location.replace("/instituciones/detalle/" + $('#next').val());
 
                         } else {
-                            notify('Hubo un error al crear el proyecto', 'la la-warning', 'danger')
+                            notify('Hubo un error al crear el institucion', 'la la-warning', 'danger')
                         }
 
                     }
                 }))
             })
         },
-        editProyect = function() {
+        editInstitution = function() {
             $("#update").on("click", function(e) {
                 e.preventDefault();
 
@@ -71,13 +71,13 @@ var snippedProyecto = function() {
                 })
                 form.valid() && (button.addClass("m-loader m-loader--right m-loader--light").attr("disabled", !0),
                     form.ajaxSubmit({
-                        url: "/proyectos/edit/",
+                        url: "/instituciones/edit/",
                         success: function(rpta, l, s, o) {
                             button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
                             if (rpta.status == 200) {
                                 img_update.processQueue();
                                 const id_proyect = $("#id").val();
-                                window.location.replace("/proyectos/detalle/" + id_proyect);
+                                window.location.replace("/instituciones/detalle/" + id_proyect);
                             } else {
                                 notify(rpta, 'la la-warning', 'danger')
                                 console.log(rpta)
@@ -109,22 +109,22 @@ var snippedProyecto = function() {
             frm_delete.submit(function(e) {
                 e.preventDefault()
                 var id = $(this).data('idcontainer')
-                var proyecto = $('#id_clover_delete').val()
-                // console.log(proyecto)
+                var institucion = $('#id_clover_delete').val()
+                // console.log(institucion)
                 // $("input[name='id_clover_delete']").val($('#id_clover_delete').val())
                 $(this).ajaxSubmit({
-                    url: "/proyectos/delete/",
+                    url: "/instituciones/delete/",
                     success: function(rpta, r, n, l) {
                         reloadToken(rpta.token)
 
                         $('#m_modal_confirm_delete').modal('hide')
                         if (rpta.status == 200) {
-                            desactivar(id, rpta.token, proyecto)
+                            desactivar(id, rpta.token, institucion)
 
-                            notify('El proyecto ha sido desactivado', 'flaticon-exclamation-2', 'success')
+                            notify('El institucion ha sido desactivado', 'flaticon-exclamation-2', 'success')
 
                         } else {
-                            notify('El proyecto no ha sido desactivado', 'flaticon-exclamation-2', 'danger')
+                            notify('El institucion no ha sido desactivado', 'flaticon-exclamation-2', 'danger')
                         }
 
                     }
@@ -136,23 +136,23 @@ var snippedProyecto = function() {
                 e.preventDefault()
                 var id = $(this).data('idcontainer')
                 //este no se esta poniendo ene l val
-                var proyecto = $('#id_clover_restore').val()
-                // console.log(proyecto)
+                var institucion = $('#id_clover_restore').val()
+                // console.log(institucion)
                 // $("input[name='id_clover_restore']").val($('.confirm_action_activate').data('confirm'))
                 $(this).ajaxSubmit({
-                    url: "/proyectos/restore/",
+                    url: "/instituciones/restore/",
                     success: function(rpta, r, n, l) {
 
                         reloadToken(rpta.token)
 
                         $('#m_modal_confirm_active').modal('hide')
                         if (rpta.status == 200) {
-                            activar(id, rpta.token, proyecto)
+                            activar(id, rpta.token, institucion)
 
-                            notify('El proyecto ha sido restaurado', 'flaticon-exclamation-2', 'success')
+                            notify('El institucion ha sido restaurado', 'flaticon-exclamation-2', 'success')
 
                         } else {
-                            notify('El proyecto no ha sido restaurado', 'flaticon-exclamation-2', 'danger')
+                            notify('El institucion no ha sido restaurado', 'flaticon-exclamation-2', 'danger')
                         }
 
                     }
@@ -188,10 +188,10 @@ var snippedProyecto = function() {
 
     return {
         init: function() {
-            es(), newProyect(), editProyect(), hideclover(), showclover(), deleteConfirm(), restoreConfirm()
+            es(), newInstitution(), editInstitution(), hideclover(), showclover(), deleteConfirm(), restoreConfirm()
         }
     }
 }()
 jQuery(document).ready(function() {
-    snippedProyecto.init()
+    snippedInstitutiono.init()
 })

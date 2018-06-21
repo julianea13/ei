@@ -2381,3 +2381,11 @@ Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __cons
 
 Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
 
+======================== 21/06/2018 13:39:08 ========================
+
+Code: 403 - Client: 127.0.0.1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 13:41:36 ========================
+
+Code: 403 - Client: 127.0.0.1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+

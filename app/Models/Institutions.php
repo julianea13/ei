@@ -7,6 +7,7 @@ use \ThisApp\Aplication\System\Config;
 use \ThisApp\Aplication\Security\Session;
 use \ThisApp\Aplication\Security\ErrorLog;
 use \ThisApp\Entities\Institution;
+use \ThisApp\Entities\Municipio;
 
 class Institutions
 {
@@ -32,12 +33,11 @@ class Institutions
 
       $eInstitution = new Institution();
 
-      $eInstitution->setInstitutionName($institution['name']);
-      $eInstitution->setIdType($institution['type']);
-      $eInstitution->setImage($institution['shield']);
-      $eInstitution->setImageInst($institution['portada']);
-
-    if (!$this->_db->update("institutions",array("field"=> "id_institution", "value"=>$institution['id_institution'] ),$eInstitution->updates())->error()) {
+      $eInstitution->setName($institution['name']);
+      $eInstitution->setMunicipio($institution['municipio']);
+      // var_dump($institution);
+      // exit;
+    if (!$this->_db->update("institution",array("field"=> "id", "value"=>$institution['i_id'] ),$eInstitution->updates())->error()) {
       $rpta = $this->_db->lastId();
       return true;
     }else{
@@ -103,10 +103,15 @@ class Institutions
   }
 
  public function getInstitutionById($id){
-    if ($this->_db->query("SELECT * FROM institutions where id_institution= :id", array("id" => $id))->error() == true)
+    if ($this->_db->query("SELECT * FROM institution where id= :id", array("id" => $id))->error() == true)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
 
     return $this->_db->first();
+  }
+ public function getMunicipio(){
+    if ($this->_db->query("SELECT * FROM municipio")->error() == true)
+     ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
+    return $this->_db->results();
   }
   //setters
 
@@ -144,7 +149,7 @@ public function setInst(Institution $ins)
       $eInstitution = new Institution();
 
       $eInstitution->setIdInstitution($institution->id_institution);
-      $eInstitution->setInstitutionName($institution->institution_name);
+      $eInstitution->setName($institution->institution_name);
       $eInstitution->setPhone($institution->phone);
       $eInstitution->setAdress($institution->adress);
       $eInstitution->setType($institution->type);
