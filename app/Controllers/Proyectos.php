@@ -75,9 +75,7 @@ class Proyectos {
 			"files"=>$files,
 			"files_historial"=>$files_historial,
 			"filesAtt"=>$filesAtt,
-			"historial"=>$historial,
-
-
+			"historial"=>$historial
 		);
 	  View::show('proyectos_detalle',$data);
 	}
@@ -105,21 +103,21 @@ class Proyectos {
       }
 	 }
 
-	public function nuevo($actions = null)
-	{
-		$oP = new mProyectos;
-		$category = $oP->getCategory();
-		$idP = $oP->getId()->proyect;
-		$idPe = Hash::encrypt($oP->getId()->proyect);
-		$institution = $oP->getInstitution();
-		$data = array(
-		"title"=>"Nuevo proyecto",
-		"category"=>$category,
-		"ins"=>$institution,
-		"id_proyect"=>$idP,
-		"id_proyectEn"=>$idPe
-	);
-	  View::show('nueva-proyectos',$data);
+	 public function nuevo($actions = null)
+   {
+     $oP = new mProyectos;
+     $category = $oP->getCategory();
+     $idP = $oP->getId()->proyect;
+     $idPe = Hash::encrypt($oP->getId()->proyect);
+     $institution = $oP->getInstitution();
+     $data = array(
+     "title"=>"Nuevo proyecto",
+     "category"=>$category,
+     "ins"=>$institution,
+     "id_proyect"=>$idP,
+     "id_proyectEn"=>$idPe
+   );
+     View::show('nueva-proyectos',$data);
 	}
 
   public function editar($actions = null)

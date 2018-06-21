@@ -1,15 +1,15 @@
 ___________                            ___.                  .__                            
-\_   _____/_____________  ___________  \_ |__ ___.__.   ____ |  |   _______  __ ___________ 
+\_   _____/_____________  ___________  \_ |__ ___.__.   ____ |  |   _______  __ ___________
  |    __)_\_  __ \_  __ \/  _ \_  __ \  | __ <   |  | _/ ___\|  |  /  _ \  \/ // __ \_  __ \
  |        \|  | \/|  | \(  <_> )  | \/  | \_\ \___  | \  \___|  |_(  <_> )   /\  ___/|  | \/
-/_______  /|__|   |__|   \____/|__|     |___  / ____|  \___  >____/\____/ \_/  \___  >__|   
-        \/                                  \/\/           \/                      \/       
-        _______       ____                                                                  
-___  __ \   _  \     /_   |                                                                 
-\  \/ / /  /_\  \     |   |                                                                 
- \   /  \  \_/   \    |   |                                                                 
-  \_/ /\ \_____  / /\ |___|                                                                 
-      \/       \/  \/  
+/_______  /|__|   |__|   \____/|__|     |___  / ____|  \___  >____/\____/ \_/  \___  >__|
+        \/                                  \/\/           \/                      \/
+        _______       ____
+___  __ \   _  \     /_   |
+\  \/ / /  /_\  \     |   |
+ \   /  \  \_/   \    |   |
+  \_/ /\ \_____  / /\ |___|
+      \/       \/  \/
 
 
 
@@ -19,111 +19,111 @@ Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Mo
 
 ======================== 14/03/2018 11:57:43 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 59 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 59 - Error:
 
 ======================== 14/03/2018 11:57:43 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 11:57:47 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 11:58:44 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 59 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 59 - Error:
 
 ======================== 14/03/2018 11:58:44 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 11:59:28 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 62 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getComments - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 62 - Error:
 
 ======================== 14/03/2018 12:04:11 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error:
 
 ======================== 14/03/2018 12:06:40 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error:
 
 ======================== 14/03/2018 12:07:01 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 60 - Error:
 
 ======================== 14/03/2018 12:08:16 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:08:46 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:08:47 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:12:04 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:12:17 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:14:54 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:16:02 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:16:08 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:16:56 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:16:56 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:21:53 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:22:56 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 61 - Error:
 
 ======================== 14/03/2018 12:35:40 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\User - Function: getParticipants - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 65 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\User - Function: getParticipants - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 65 - Error:
 
 ======================== 14/03/2018 13:40:50 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error:
 
 ======================== 14/03/2018 13:40:59 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error:
 
 ======================== 14/03/2018 13:41:58 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error:
 
 ======================== 14/03/2018 13:42:36 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error:
 
 ======================== 14/03/2018 13:43:19 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: alonsoloaiza@gmail.com - Class: ThisApp\Models\Institutions - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Instituciones.php- Line: 39 - Error:
 
 ======================== 14/03/2018 13:44:24 ========================
 
@@ -147,71 +147,71 @@ Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Mo
 
 ======================== 22/03/2018 14:02:03 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:02:10 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:02:16 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:02:30 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:02:45 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:03:29 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:05:39 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:05:45 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:05:53 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:07:30 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error:
 
 ======================== 22/03/2018 14:07:37 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error:
 
 ======================== 22/03/2018 14:08:11 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 100 - Error:
 
 ======================== 22/03/2018 14:08:48 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:10:33 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:12:56 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:15:52 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 22/03/2018 14:16:04 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Proyectos.php- Line: 102 - Error:
 
 ======================== 28/03/2018 14:55:44 ========================
 
@@ -1959,11 +1959,11 @@ Code: 403 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Co
 
 ======================== 13/04/2018 22:28:45 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 199 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 199 - Error:
 
 ======================== 13/04/2018 22:28:45 ========================
 
-Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 199 - Error: 
+Code: 500 - Client: 127.0.0.1 - User: julian941300@gmail.com - Class: ThisApp\Models\User - Function: getCustom - File: C:\xampp\htdocs\trebol\app\Controllers\Usuarios.php- Line: 199 - Error:
 
 ======================== 14/04/2018 00:15:45 ========================
 
@@ -2063,31 +2063,31 @@ Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisA
 
 ======================== 20/04/2018 12:56:12 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 20/04/2018 12:57:39 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 20/04/2018 12:58:34 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 20/04/2018 12:58:45 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 20/04/2018 12:59:01 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 20/04/2018 13:00:16 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 20/04/2018 13:02:48 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Proyectos.php- Line: 216 - Error:
 
 ======================== 23/04/2018 15:52:23 ========================
 
@@ -2099,7 +2099,7 @@ Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisA
 
 ======================== 24/04/2018 11:14:00 ========================
 
-Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Usuarios.php- Line: 166 - Error: 
+Code: 500 - Client: 190.217.101.26 - User: julian941300@gmail.com - Class: ThisApp\Models\Proyect - Function: getCustom - File: /srv/users/serverpilot/apps/trebol/app/Controllers/Usuarios.php- Line: 166 - Error:
 
 ======================== 24/04/2018 11:17:07 ========================
 
@@ -2388,4 +2388,55 @@ Code: 403 - Client: 127.0.0.1 - User:  - Class: ThisApp\Core\Router - Function: 
 ======================== 21/06/2018 13:41:36 ========================
 
 Code: 403 - Client: 127.0.0.1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+=======
+======================== 21/06/2018 14:19:11 ========================
 
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:20:18 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:21:23 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:23:04 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:23:25 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:23:40 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:25:13 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:25:53 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:26:05 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:47:12 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Historial - Function: editar - File: - Line:  - Error: pagina no encontrada
+
+======================== 21/06/2018 15:48:56 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 15:50:53 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 15:52:38 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Proyectos - Function: editar - File: - Line:  - Error: pagina no encontrada

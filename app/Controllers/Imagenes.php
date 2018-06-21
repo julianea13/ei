@@ -22,7 +22,10 @@ class Imagenes {
 
 		if(!$this->_request->ajax())
 					Response::ajax(1,"ajax");
-		$titulo_doc = $_FILES['file']['name'];	
+    $titulo_doc1 = str_replace(' ', '', $_FILES['file']['name']);   
+    $titulo_doc2 = str_replace(')', '', $titulo_doc1);   
+		$titulo_doc = str_replace('(', '', $titulo_doc2);	  
+
 		$ext =strtolower(pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION));
 			$img = array("png", "jpg", "jpeg", "bmp", "svg", "gif", "tiff");
 			$video = array("mp4", "avi", "mpeg", "mov", "wmv", "rm", "flv");
