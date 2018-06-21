@@ -54,6 +54,11 @@ public function edit($proyect)
     
   }
 
+ public function getIdCf($id){     
+    if ($this->_db->query("SELECT id_cf FROM proyect where id = :id", array('id'=>$id))->error() == true)
+     ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
+    return $this->_db->first();
+  }
     public function delete($id) 
   {   
     $eClover = new Proyect(); 
@@ -124,7 +129,7 @@ public function setProyect(Proyect $Proyect)
     }
   }
   
- 
+
   
 public function getId(){
    if ($this->_db->query("SELECT `auto_increment` as 'proyect' FROM INFORMATION_SCHEMA.TABLES WHERE table_name = 'proyect'")->error() == true)

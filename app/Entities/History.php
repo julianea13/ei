@@ -10,8 +10,8 @@ class History
           $id_belongs,
           $belongs,
           $active,
-          $tags,
-          $ic_cf;
+          $tags, 
+          $id_cf;
         
           
 
@@ -36,8 +36,8 @@ class History
    public function setActive($active){
       $this->active = $active;
   } 
-   public function setIdCf($ic_cf){
-      $this->ic_cf = $ic_cf;
+   public function setIdCf($id_cf){
+      $this->id_cf = $id_cf;
   }
   public function setTags($tags){
       $this->tags = $tags;
@@ -71,7 +71,7 @@ class History
       return $this->active;
   }  
   public function getIdCf(){
-      return $this->ic_cf;
+      return $this->id_cf;
   }  
    
 
@@ -83,7 +83,15 @@ class History
       "id_belongs"=>$this->id_belongs,   
       "belongs"=>$this->belongs,   
       "active"=>$this->active,   
-      "ic_cf"=>$this->ic_cf   
+      "id_cf"=>$this->id_cf,   
+      "tags"=>$this->tags   
+      );    
+  }
+    public function updates(){
+    return array(
+        
+      "description"=>$this->description, 
+      "tags"=>$this->tags   
       );    
   }
 

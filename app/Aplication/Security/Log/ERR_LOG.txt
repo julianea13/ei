@@ -2381,3 +2381,55 @@ Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __cons
 
 Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
 
+======================== 21/06/2018 14:19:11 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:20:18 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:21:23 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:23:04 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:23:25 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:23:40 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:25:13 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:25:53 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:26:05 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 14:47:12 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Historial - Function: editar - File: - Line:  - Error: pagina no encontrada
+
+======================== 21/06/2018 15:48:56 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 15:50:53 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 21/06/2018 15:52:38 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Proyectos - Function: editar - File: - Line:  - Error: pagina no encontrada
+

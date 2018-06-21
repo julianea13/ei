@@ -56,6 +56,9 @@ class Router extends Request
 				 if($this->_controller == 'Historial' && $this->_method == 'nuevo'){
 				 	$finded = true;
 				 }
+				 if($this->_controller == 'Historial' && $this->_method == 'editar'){
+				 	$finded = true;
+				 }
 				if ($finded == false and !$request->ajax() and $this->_controller != 'Err' and ($this->_controller != 'Login' and $this->_method != 'out')) {
 					ErrorLog::throwNew("No tiene permiso", debug_backtrace(),'403');				
 				}		

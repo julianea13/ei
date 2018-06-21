@@ -24,56 +24,18 @@ div[id$="-error"] {
             <div class="m-portlet__head">
                 <div class="m-portlet__head-caption">
                     <div class="m-portlet__head-title" style="width: 100%">
-                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-bullseye" style="font-size: 2.3rem;"></i>{{proyecto.name}}
-              <small style="display: INHERIT; padding-left: 0; padding-top: 5px"> {{proyecto.franchise_name}}
-
-              </small>
-            </h3>
-                        <div>
-                            <ul>
-                            </ul>
-                        </div>
+                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-bullseye" style="font-size: 2.3rem;"></i>Contenido
+                        </h3>
                         <small class="small-sub">             
-                <i class="m-menu__link-icon la  la-file"></i> <span>{{ files|length}}</span>                 
-                <i class="m-menu__link-icon la  la-history"></i> <span>{{ historial|length}}</span>                 
+                <i class="m-menu__link-icon la  la-file"></i> <span>{{ files|length}}</span>                
+                               
             </small>
                     </div>
                 </div>
             </div>
             <div class="m-portlet__body">
                 <div class="container-flex-row">
-                    <div class="width-100"> {{proyecto.description|raw}}</div>
-                </div>
-            </div>
-        </div>
-        <!-- Nombre I.E -->
-        <div class="m-portlet m-portlet--mobile">
-            <div class="m-portlet__head">
-                <div class="m-portlet__head-caption">
-                    <div class="m-portlet__head-title">
-                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-shield" style="font-size: 2.3rem;"></i>Institución</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="m-portlet__body">
-                <div class="container-flex-row">
-                    <section class="container-flex-row ie-search" style="width: 100%">
-                        <article class="item-inst close-child element-item transition metal {{proyecto.type_name}} {{proyecto.active == 1 ? '': 'inactive'}} inst-edu inner-flex-inst " id="user_thumb_{{loop.index}}" data-category="transition">
-                            <div class="inst-icon" style="background: url({{proyecto.image}}); background-size: cover; background-repeat: no-repeat;">
-                            </div>
-                            <div class="inst-content"> <strong><h2 class="nombres">{{proyecto.institution_name}}</h2></strong>
-                                <p><span><i class="la la-connectdevelop"></i></span><span>&nbsp;Sede principal</span></p>
-                                <p><span><i class="la la-building"></i></span><span>&nbsp;{{proyecto.municipio}}</span></p>
-                            </div>
-                            <div class="inst-resume">
-                                <i class="m-menu__link-icon la  la-user"></i> <span>{{proyecto.participantes}}</span>
-                            </div>
-                            <div class="vertical-container">
-                                {% for p in usd.permisos %} {% if p.nombre == 'usuarios' %} {% if p.r == 1 %}
-                                <a href="/instituciones/detalle/{{proyecto.id_institution}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a> {% endif %} {% endif %} {% endfor %}
-                            </div>
-                        </article>
-                    </section>
+                    <div class="width-100"> {{history.history_description|raw}}</div>
                 </div>
             </div>
         </div>
@@ -122,58 +84,14 @@ div[id$="-error"] {
                     {% endif %} {% endfor %} {% endif %}
                 </div>
                 {% endfor %}
-            </div>
-        </div>
-        <div class="m-portlet m-portlet--mobile">
-            <div class="m-portlet__head">
-                <div class="m-portlet__head-caption">
-                    <div class="m-portlet__head-title">
-                        <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-history" style="font-size: 2.3rem;"></i>Historial</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="m-portlet__body">
-                <div class="container-flex-row">
-                    <div class="m-timeline-1 m-timeline-1--fixed">
-                        <div class="m-timeline-1__items">
-                            <div class="m-timeline-1__marker"></div>
-                            {% for h in historial %}
-                            <div class="m-timeline-1__item ">
-                                <div class="m-timeline-1__item-circle">
-                                    <div class="m--bg-danger"></div>
-                                </div>
-                                <div class="m-timeline-1__item-arrow"></div>
-                                <span class="m-timeline-1__item-time m--font-brand">{{h.ca|date("Y/m/d")}}</span>
-                                <div class="m-timeline-1__item-content">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            {{h.description|raw}}                                            
-                                        </div>
-                                        <div class="col-md-8"> 
-                                        {% for hi in files_historial %} 
-                                        {% if hi.id_belongs == h.id and hi.file_type == 1 %}
-                                            <i class="m-menu__link-icon la la-file-video-o"></i> 
-                                        {% endif %}
-                                        {% if hi.id_belongs == h.id and hi.file_type == 2 %}
-                                            <i class="m-menu__link-icon la la-file-image-o"></i>
-                                        {% endif %} 
-                                        {% if hi.id_belongs == h.id and hi.file_type == 3 %}
-                                            <i class="m-menu__link-icon la la-file-audio-o"></i>
-                                        {% endif %} 
-                                        {% endfor %}</div>
-                                        <div class="col-md-3">
-                                            <a href="/historial/detalle/{{h.id}}" class="btn btn-sm m-btn--custom m-btn--pill  btn-danger">
-                                                Ver más
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>                    
-                </div>
-                <a href="/Historial/nuevo/gMrJ7PbtreboluQF+avhBvpR1yg==/{{proyecto.id}}" class="btn btn-sm m-btn--custom m-btn--pill  btn-danger">Crear nuevo historial</a>
+
+                {% if usd.id == history.id_cf or usd.rol == 1 %}
+                 <a href="/historial/editar/{{history_id}}" class="btn btn-danger"> <span>
+                     <i class="la la-close"></i>
+                      <span>Editar historial</span>
+                 </span>
+                </a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -255,7 +173,7 @@ div[id$="-error"] {
 <script>
 var str = "";
 
-$.each("{{proyecto.tag}}".split(","), function(k, v) {
+$.each("{{history.tags}}".split(","), function(k, v) {
 
     str += "<div class='tag'>" + v + "</div>"
 })
