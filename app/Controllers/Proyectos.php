@@ -133,7 +133,7 @@ class Proyectos {
 		$oF = new Files;
 		$oH = new Historial;
 		$proyecto = $oP->getSingle($id);
-
+    $id_encrip = Hash::encrypt($proyecto->id);
 		$files = $oF->getFile('1',$id);
 		$files_historial = $oF->getCountFile($id,'3');
 		$historial = $oH->getHistorial('1',$id);
@@ -155,7 +155,8 @@ class Proyectos {
 			"files"=>$files,
 			"files_historial"=>$files_historial,
 			"filesAtt"=>$filesAtt,
-			"historial"=>$historial,
+      "historial"=>$historial,
+			"id"=>$id_encrip,
 		);
 	  View::show('edit-proyectos',$data);
 	}

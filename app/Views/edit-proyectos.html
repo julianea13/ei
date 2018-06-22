@@ -22,20 +22,20 @@
                  <div class="form-group m-form__group">
                     <label for="exampleInputEmail1">Nombre del proyecto * <small>(Usa un nombre corto para identificar tu proyecto)</small></label>
                     <input required type="text" class="form-control m-input" name="name" id="name" value="{{proyecto.name}}">
-                    <input type="hidden" value="{{proyecto.id}}" name="next" id="next">
+                    <input type="hidden" value="{{id}}" name="next" id="next">
                     <input type="hidden" value="{{proyecto.id}}" name="pid" id="pid">
                 </div>
                  <div class="form-group m-form__group">
                     <label for="exampleInputEmail1">Detalle del proyecto * <small> (Detalle completo de el proyecto)</small></label>
                     <div class="col-lg-12 col-md-9 col-sm-12">
-                        <div id="long-desc">{{proyecto.description|raw}}</div>
-                        <textarea id="text_long" name="text_long" class='hide'></textarea>
+                     <textarea id="text_long" rows="10" cols="100" class="form-control m-input" name="text_long">{{proyecto.description|raw}}</textarea>
+                        
                     </div>
                 </div>
-                <div class="form-group m-form__group">
-                    <label for="exampleInputEmail1">Tags</label>
-                    <input type="text" class="form-control tags" value="innovacion" name="tags" data-role="tagsinput" />
-                </div>
+                 <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Tags *</label>
+                    <input type="text" class="form-control tags" name="tags" data-role="tagsinput" />                     
+                </div>  
                 <div class="form-group m-form__group">
                     <label for="exampleInputEmail1">Archivos </label>
                     <div class="form-group m-form__group row">
@@ -221,6 +221,9 @@ $(document).ready(function() {
             $(this).blur()
             $('.text-Copunter').html('Quedan ' + (200 - $(this).val().length) + ' caracteres')
         }
+    })
+     $.each("{{proyecto.tag}}".split(" "), function(k, v) {
+        setTimeout(function() { $('.tags').tagsinput('add', v); }, 0);
     })
 
 });

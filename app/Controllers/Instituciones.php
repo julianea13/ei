@@ -73,6 +73,7 @@ class Instituciones {
     $oInstitutions = new Institutions();
     $institution = $oInstitutions->getInstitutionById($id);
     $municpios=$oInstitutions->getMunicipio();
+    $id_institution = Hash::encrypt($institution->id);
     // var_dump($municpios);
     // exit;
     $data = array(
@@ -80,7 +81,8 @@ class Instituciones {
       "actualPage"=>"nuevo_sede",
       "institucion"=>$institution,
       "municipios"=>$municpios,
-      "id" =>$actions[0]
+      "id" =>$actions[0],
+      "id_en" =>$id_institution
     );
     View::show('edit-institucion',$data);
   }

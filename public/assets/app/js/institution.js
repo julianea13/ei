@@ -76,7 +76,7 @@ var snippedInstitutiono = function() {
                             button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
                             if (rpta.status == 200) {
                                 img_update.processQueue();
-                                const id_proyect = $("#id").val();
+                                const id_proyect = $("#i_id").val();
                                 window.location.replace("/instituciones/detalle/" + id_proyect);
                             } else {
                                 notify(rpta, 'la la-warning', 'danger')

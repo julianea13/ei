@@ -2440,3 +2440,7 @@ Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __cons
 ======================== 21/06/2018 15:52:38 ========================
 
 Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Proyectos - Function: editar - File: - Line:  - Error: pagina no encontrada
+======================== 22/06/2018 09:17:54 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+

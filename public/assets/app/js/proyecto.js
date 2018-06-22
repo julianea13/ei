@@ -76,7 +76,7 @@ var snippedProyecto = function() {
                             button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
                             if (rpta.status == 200) {
                                 img_update.processQueue();
-                                const id_proyect = $("#id").val();
+                                const id_proyect = $("#next").val();
                                 window.location.replace("/proyectos/detalle/" + id_proyect);
                             } else {
                                 notify(rpta, 'la la-warning', 'danger')
