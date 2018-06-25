@@ -1,0 +1,158 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %}
+<link rel="stylesheet" href="/assets/vendors/footable/css/footable.bootstrap.css"> {% endblock %} {% block contenido %}
+<div class="col-xl-1">
+</div>
+<div class="col-xl-10">
+    <!-- Inicio de contenido -->
+    <div class="m-portlet m-portlet--creative m-portlet--first m-portlet--bordered-semi" style="padding-top: 0;">
+        <div class="m-portlet__head">
+            <div class="m-portlet__head-caption">
+                <div class="m-portlet__head-title">
+                    <div class="m-portlet__head-label m-portlet__head-label--brand foto-perfil" style="background-image: url({{user.image}}); background-size: cover;">
+                    </div>
+                    <div class="info_proper_IE">
+                        <h2>
+              {{user.name}} {{user.last_name}}
+              </h2>
+                        <p>
+                            {{user.email}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__head-tools ">
+                <!-- <button type="button" class="btn  b-plus btn-sm m-btn m-btn--custom btn-metal btn-pos-fix">
+            Editar Información
+          </button><br> -->
+                <ul class="m-portlet__nav">
+                    <li class="m-portlet__nav-item">
+                    </li>
+                    <li class="m-portlet__nav-item">
+                        <i class="la  la-bullseye"></i>
+                        <span>{{proyectos|length}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m-portlet__body">
+        </div>
+    </div>
+    <!-- Historial -->
+    <div class="m-portlet m-portlet--mobile">
+        <div class="m-portlet__head">
+            <div class="m-portlet__head-caption">
+                <div class="m-portlet__head-title">
+                    <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-shield" style="font-size: 2.3rem;"></i>Historial</h3>
+                </div>
+            </div>
+        </div>       
+        <div class="m-portlet__body">
+            <table id="customers" data-page-navigation=".pagination" data-page-size="1">
+                <tr>
+                    <th>Fecha creación</th>
+                    <th>Estado</th>
+                    <th>Descrición</th>
+                    <th>Ir</th>
+                </tr>
+                <tbody>
+                    {% for i in hitorial %}
+                    <tr>
+                        <td>{{i.ca}}</td>
+                        <td>{% if i.active == 1 %} Activo{% else %} Inactivo{% endif %}</td>
+                        <td>{{i.description|length > 50 ? i.description|slice(0, 50) ~ '...' : i.description}}</td>
+                        <td><a href="/historial/detalle/{{i.id}}" class="btn btn-secondary m-btn m-btn--icon"><span><i class="la la-eye"></i><span>Ver</span></span></a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot class="hide-if-no-paging">
+                    <tr>
+                        <td colspan="4" class="text-center">
+                            <ul class="pagination"></ul>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <!-- Proyyectos -->
+    <div class="m-portlet m-portlet--mobile">
+        <div class="m-portlet__head">
+            <div class="m-portlet__head-caption">
+                <div class="m-portlet__head-title">
+                    <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-bullseye" style="font-size: 2.3rem;"></i>Proyectos</h3>
+                </div>
+            </div>
+        </div>
+        <div class="m-portlet__body">
+            <div class="container-flex-row ie-search">
+                <div class="container-flex-row ie-search">
+                    {% for pr in proyecto %}
+      <div class="container-flex-row active close-child element-item hide-toshow proyecto_cont transition   {{pr.active == 1 ? '': 'inactive'}}{{ pr.tag|replace({',':' '}) }}" id="user_thumb_{{loop.index}}" style="max-width: 239px">
+        <a href="/proyectos/detalle/{{pr.id}}" style="    width: 100%;"><div class="image_item30" style="background: url({{pr.image}}); background-size: cover; background-repeat: no-repeat;">          
+        </div></a>
+        <div class="conte_item30" >
+          <h2 class="nombres">{{pr.name|length > 20 ? pr.name[:20]~'...' :  pr.name}}</h2>
+          <p class="hide">{{pr.tag}}</p>
+          <ul>
+            <li>
+            <span><i class="la la-shield"></i></span>
+            <span>{{pr.institutionname}}</span>
+            </li>
+            <li>
+            <span><i class="la la-building"></i></span>
+            <span>{{pr.categoryname}}</span>
+            </li>
+          </ul>
+          
+            {% for p in usd.permisos %} 
+            {% if p.nombre == 'usuarios' %} 
+            <div class="btn-group  thumb-action-buttons" role="group" aria-label="First group">
+              {% if p.u == 1 or pr.id_cf == usd.id %}
+              <!-- poner boton editar -->
+              <a href="/proyectos/editar/{{pr.id}}" class="m-btn btn btn-primary"><i class="la la-edit"></i></a>                      
+              {% endif %}
+              {% if p.r == 1 %}
+              <a href="/proyectos/detalle/{{pr.id}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a>
+
+              {% endif %}
+              {% if p.d == 1 and pr.active == 1   %}
+              {% if pr.id_cf == usd.id or usd.rol == 1%}
+              <!-- poner boton eliominar -->
+              <!-- <button type="button" class="m-btn btn btn-danger" data-toggle="modal" data-target="#m_modal_{{count}}"><a href=""><i class="la la-remove"></i></a></button>  -->
+              <button type="button" class="m-btn btn btn-danger confirm_action_data" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_delete"><i class="la la-remove"></i></button> 
+              {% endif %}
+              {% endif %}
+              {% if p.u == 1 and pr.active != 1 %}                   
+              <button type="button" class="m-btn btn btn-primary confirm_action_activate" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_active"><i class="la la-check"></i></button> 
+              {% endif %}
+            </div>
+            {% endif %} 
+            {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+                </div>
+            </div>
+            <button type="button" id="loadMorePr" class="btn  b-plus btn-metal">
+                Ver más
+            </button>
+        </div>
+    </div>
+    <!-- Final de contenido -->
+</div>
+<div class="col-xl-1">
+    <!--begin:: Widgets/Blog-->
+    <!--end:: Widgets/Blog-->
+</div>
+{% endblock %} {% block scripts %}
+<script src="/assets/vendors/footable/js/footable.js"></script>
+<script>
+$(function() {
+    $('#customers').footable({
+        "paging": {
+            "enabled": true
+        }
+    });
+});
+</script>
+{% endblock %}

@@ -93,7 +93,50 @@ class Imagenes {
 	    		Response::ajax(7,"Server file system error");	    	
 	    	}	    	
 	    }		
-	}	
+	}
+  public function images($actions = null){ 
+  
+    if(!$this->_request->ajax())
+      Response::ajax(1,"ajax");
+      $titulo_doc = 'img';
+      // if (Token::validate($this->_qs["token"]))
+      //  $this->ajaxResponse("error", "unauthorized", "Missing Token");
+      
+      // START PROCESS
+      if(!$this->_request->hasFile($titulo_doc))
+        Response::ajax(2,"no file deliveder");
+      
+    if ( 0 < $_FILES[$titulo_doc]['error'] ) {
+      Response::ajax(3,"Unhealthy file");         
+      }else{
+        
+      if ($_FILES[$titulo_doc]['size'] > 16777216)          
+          Response::ajax(4,"El archivo tiene que pesar menos de 2MB");
+          $allowed_ext = array("png", "jpg", "jpeg", "bmp", "svg", "gif", "tiff");
+          $ext = strtolower(pathinfo($_FILES[$titulo_doc]['name'], PATHINFO_EXTENSION));
+      if(!in_array($ext, $allowed_ext))     
+        Response::ajax(5,"Extension not allowed");
+        // $dir = __DIR__.'/../../public/uploads/images/users/'.$id;
+        $dir = __DIR__.'/../../public/uploads/images/'.$actions[0].'/'.$actions[1];
+
+        if (!file_exists($dir) && !is_dir($dir))
+          mkdir($dir);
+
+      $ruta = $dir ."/". $titulo_doc.".".$actions[2];
+
+        if(move_uploaded_file($_FILES[$titulo_doc]['tmp_name'], $ruta))
+        {   
+
+            Response::ajax(6,"OK");
+            $user = Session::get("user");
+            $user["img"] = $id."/".$titulo_doc.".".$ext;
+            Session::delete("user");
+            Session::put("user", $user);          
+        }else{     
+          Response::ajax(7,"Server file system error");       
+        }       
+      }   
+  }	
 	
 }
 

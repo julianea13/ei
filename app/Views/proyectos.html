@@ -38,9 +38,9 @@
   </div>    
   <div class="grid">
     <div class="container-flex-row ie-search">
-
       {% for pr in proyecto %}
-      <div class="container-flex-row active close-child element-item hide-toshow proyecto_cont transition   {{pr.active == 1 ? '': 'inactive'}}{{ pr.tag|replace({',':' '}) }}" id="user_thumb_{{loop.index}}" style="max-width: 239px">
+
+      <div class="container-flex-row  close-child element-item hide-toshow proyecto_cont transition active  {{pr.active == 1 ? ' ': 'inactive'}} {{ pr.tag|replace({',':' '}) }}" id="user_thumb_{{loop.index}}" style="max-width: 239px">
         <a href="/proyectos/detalle/{{pr.id}}" style="    width: 100%;"><div class="image_item30" style="background: url({{pr.image}}); background-size: cover; background-repeat: no-repeat;">          
         </div></a>
         <div class="conte_item30" >
@@ -53,11 +53,12 @@
             </li>
             <li>
             <span><i class="la la-building"></i></span>
-            <span>{{pr.categoryname}}</span>
+            <span>{{pr.categoryname}} </span>
             </li>
           </ul>
-          
+
             {% for p in usd.permisos %} 
+
             {% if p.nombre == 'usuarios' %} 
             <div class="btn-group  thumb-action-buttons" role="group" aria-label="First group">
               {% if p.u == 1 or pr.id_cf == usd.id %}
@@ -68,10 +69,9 @@
               <a href="/proyectos/detalle/{{pr.id}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a>
 
               {% endif %}
-              {% if p.d == 1 and pr.active == 1   %}
-              {% if pr.id_cf == usd.id or usd.rol == 1%}
-              <!-- poner boton eliominar -->
-              <!-- <button type="button" class="m-btn btn btn-danger" data-toggle="modal" data-target="#m_modal_{{count}}"><a href=""><i class="la la-remove"></i></a></button>  -->
+              {% if p.d == 1 and pr.active == 1 %}
+
+              {% if pr.id_cf == usd.id or usd.rol == 1%}            
               <button type="button" class="m-btn btn btn-danger confirm_action_data" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_delete"><i class="la la-remove"></i></button> 
               {% endif %}
               {% endif %}

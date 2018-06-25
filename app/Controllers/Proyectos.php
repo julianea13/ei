@@ -129,10 +129,15 @@ class Proyectos {
 
 		if($id == false || !is_numeric($id))
 			ErrorLog::throwNew("pagina no encontrada", debug_backtrace(), '404');
+
+
 		$oP = new mProyectos;
 		$oF = new Files;
 		$oH = new Historial;
 		$proyecto = $oP->getSingle($id);
+    if($proyecto->id_cf != Session::get('user')['id'])
+      ErrorLog::throwNew("No tienes permiso apra ingresar", debug_backtrace(), '403');
+ 
     $id_encrip = Hash::encrypt($proyecto->id);
 		$files = $oF->getFile('1',$id);
 		$files_historial = $oF->getCountFile($id,'3');
@@ -179,5 +184,29 @@ class Proyectos {
         Response::ajax(204, 'No editado');
 
       }
+  }
+    public function delete($actions = null){
+    if(!$this->_request->ajax())
+      Response::ajax(403, 'Ajax error');   
+      // Token::tokenCheck($this->_qs['token']);
+      $id_clover = Hash::decrypt($this->_qs['id_clover_delete']);
+      $oP = new mProyectos();
+      if($oP->delete($id_clover))
+        Response::ajax(200, 'Eliminado');
+      else
+        Response::ajax(204, 'No eliminado');      
+  }
+  public function restore($actions = null){
+    if(!$this->_request->ajax())
+      Response::ajax(403, 'Ajax error');
+      // Token::tokenCheck($this->_qs['token']);
+      
+      $id_clover = Hash::decrypt($this->_qs['id_clover_restore']);
+      $oP = new mProyectos();
+      if($oP->restore($id_clover))
+        Response::ajax(200, 'Restaurado');
+      else
+        Response::ajax(204, 'No restaurado');      
+      
   }
 }

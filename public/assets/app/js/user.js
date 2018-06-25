@@ -4,7 +4,7 @@ var SnippetUser = function() {
         newUser = function() {
             $("#btn_new").on("click", function(e) {
                 e.preventDefault();
-img_update.processQueue();
+
                 var button = $(this),
                     form = $(this).closest("form");
                 form.validate({
@@ -14,7 +14,7 @@ img_update.processQueue();
                             required: true,
                             maxlength: 15
                         },
-                        full_name: {
+                        name: {
                             required: true,
                             maxlength: 50
                         },
@@ -28,13 +28,8 @@ img_update.processQueue();
                         },
                         rol: {
                             required: true,
-                        },
-                        gender: {
-                            required: true,
-                        },
-                        franchise: {
-                            required: true,
-                        },
+                        },                      
+                       
                         image_profile: {
                             required: true,
                         },
@@ -52,7 +47,8 @@ img_update.processQueue();
                     url: "/usuarios/crear/",
                     success: function(rpta, l, s, o) {
                         button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)                        
-                            if (rpta.status == 200) {                              
+                            if (rpta.status == 200) { 
+                            img_update.processQueue();                             
                             window.location.replace("/usuarios");   
                             } else {
                                 notify(rpta, 'la la-warning', 'danger')
@@ -67,7 +63,7 @@ img_update.processQueue();
         editUser = function() {
             $("#btn_edit").on("click", function(e) {
                 e.preventDefault();
-img_update.processQueue();
+
                 var button = $(this),
                     form = $(this).closest("form");
                 form.validate({
@@ -92,7 +88,7 @@ img_update.processQueue();
                     url: "/usuarios/edit/",
                     success: function(rpta, l, s, o) {
                         button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
-                        
+                        img_update.processQueue();
                             if (rpta.status == 200) { 
 
                             window.location.replace("/usuarios/detalle/"+$('#default').val()    );   
@@ -163,7 +159,7 @@ img_update.processQueue();
                     url: "/usuarios/delete/",
                     success: function(rpta, r, n, l) {                    
                         reloadToken(rpta.token)
-                        
+                        console.log(rpta)
                         $('#m_modal_confirm_delete').modal('hide')
                         if (rpta.status == 200) {
                             desactivar(id,rpta.token,usuario)

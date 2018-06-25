@@ -2444,3 +2444,47 @@ Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Proyectos - Functi
 
 Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
 
+======================== 22/06/2018 09:57:25 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 22/06/2018 10:10:54 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 22/06/2018 11:35:33 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\Historial - Function: getSingle - File: C:\xampp\htdocs\ei\app\Controllers\Historial.php- Line: 35 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+
+======================== 22/06/2018 15:41:46 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\Institutions - Function: getAll - File: C:\xampp\htdocs\ei\app\Controllers\Instituciones.php- Line: 27 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and u.active = 1' at line 1
+
+======================== 22/06/2018 15:41:50 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\Institutions - Function: getAll - File: C:\xampp\htdocs\ei\app\Controllers\Instituciones.php- Line: 27 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and u.active = 1' at line 1
+
+======================== 22/06/2018 15:42:06 ========================
+
+Code: 500 - Client: ::1 - User:  - Class: ThisApp\Models\Usuarios - Function: getAll - File: C:\xampp\htdocs\ei\app\Controllers\Usuarios.php- Line: 25 - Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and active = 1' at line 1
+
+======================== 22/06/2018 16:18:25 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Historial - Function: editar - File: - Line:  - Error: pagina no encontrada
+
+======================== 22/06/2018 16:29:32 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Proyectos - Function: editar - File: - Line:  - Error: No tienes permiso apra ingresar
+
+======================== 22/06/2018 16:29:55 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Controllers\Proyectos - Function: editar - File: - Line:  - Error: No tienes permiso apra ingresar
+
+======================== 25/06/2018 15:03:31 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+
+======================== 25/06/2018 15:04:07 ========================
+
+Code: 403 - Client: ::1 - User:  - Class: ThisApp\Core\Router - Function: __construct - File: C:\xampp\htdocs\ei\public\index.php- Line: 9 - Error: No tiene permiso
+

@@ -33,7 +33,8 @@ class View
       "token" => Token::create(),
       "flash" => Session::getFlash(),
       "system_metas" => $system_metas,
-      "usd" => $usd    
+      "usd" => $usd ,
+      "id_user_usd"=>Hash::encrypt($usd['id'])  
     );
     //Twig_Autoloader::register();
     $loader = new Twig_Loader_Filesystem(__DIR__.'/../Views');

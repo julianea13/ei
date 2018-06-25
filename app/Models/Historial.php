@@ -24,12 +24,19 @@ public function getHistorial($belongs,$id_belongs){
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
     return $this->_db->results();
   }
+  public function getHistorialbyuser($id){     
+   $sql ="SELECT * from history where id_cf = :id ORDER BY id DESC;";
+    if ($this->_db->query($sql, array("id"=>$id))->error() == true)
+     ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
+    return $this->_db->results();
+  }
   public function getSingle($id){     
-   $sql ="SELECT h.description as 'history_description', h.tags,h.active,h.id_cf,h.id as 'id_history',f.*,u.nick,u.name,u.last_name FROM history h join files f on f.id_belongs = h.id and f.belongs = 3 JOIN users u on u.id = h.id_cf where h.id=:id;";
+   $sql ="SELECT h.description as 'history_description', h.tags,h.active,h.id_cf,h.id as 'id_history',u.nick,u.name,u.last_name FROM history h JOIN users u on u.id = h.id_cf where h.id=:id";
     if ($this->_db->query($sql, array("id"=>$id))->error() == true)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
     return $this->_db->first();
   }
+
   public function edit($history) 
   {   
     

@@ -98,4 +98,27 @@ class User
       "email"=>$this->email
       );    
   }
+   public function delete(){
+    return array(      
+      "active"=>$this->active,     
+      );    
+  }
+  public function updatesB(){
+    return array(      
+      "name"=>$this->name,
+      "last_name"=>$this->last_name,
+      "image"=>$this->image,     
+      "password"=>$this->password,     
+      "id_rol"=>$this->id_rol,       
+      );    
+  }
+ public function updatesA(){
+    return array(      
+      "name"=>$this->name,
+      "last_name"=>$this->last_name,
+      "image"=>$this->image,     
+      "password"=>$this->password,     
+     
+      );    
+  }
 }
