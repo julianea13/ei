@@ -88,8 +88,16 @@ public function edit($proyect)
 
   public function getAll(){
     $where = Session::get('user')['rol'] == '1' ? '' : ' and c.active = 1 ';
-   $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category;".$where." ORDER BY c.active DESC";
+   $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category ".$where." ORDER BY c.active DESC";
     if ($this->_db->query($sql)->error() == true)
+     ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
+
+    return $this->_db->results();
+  }
+  public function getInstitutionById($id){
+    $where = Session::get('user')['rol'] == '1' ? '' : ' and c.active = 1 ';
+   $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category where i.id = :id ".$where." ORDER BY c.active DESC";
+    if ($this->_db->query($sql, array("id"=>$id))->error() == true)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
 
     return $this->_db->results();

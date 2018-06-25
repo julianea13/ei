@@ -34,7 +34,8 @@ var snippedInstitutiono = function() {
                         console.log(rpta)
                         button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
                         if (rpta.status == 200) {
-                             img_update.processQueue();
+                          img_portada1.processQueue();
+                          img_update.processQueue();
                             window.location.replace("/instituciones/detalle/" + $('#next').val());
 
                         } else {
@@ -51,7 +52,7 @@ var snippedInstitutiono = function() {
 
                 let button = $(this),
                     form = $(this).closest('form')
-                //$('#editPoyect');
+                $('#editPoyect');
 
                 form.validate({
                     lang: 'es',
@@ -75,12 +76,12 @@ var snippedInstitutiono = function() {
                         success: function(rpta, l, s, o) {
                             button.removeClass("m-loader m-loader--right m-loader--light").attr("disabled", !1)
                             if (rpta.status == 200) {
-                                img_update.processQueue();
+                              img_portada1.processQueue();
+                              img_update.processQueue();
                                 const id_proyect = $("#i_id").val();
                                 window.location.replace("/instituciones/detalle/" + id_proyect);
                             } else {
                                 notify(rpta, 'la la-warning', 'danger')
-                                console.log(rpta)
                             }
                         }
                     }))
@@ -105,40 +106,40 @@ var snippedInstitutiono = function() {
                 creditcard: "Por favor ingrese un número de tarjeta de crédito válido."
             });
         },
-        hideclover = function() {
+        hideinstitucion = function() {
             frm_delete.submit(function(e) {
                 e.preventDefault()
                 var id = $(this).data('idcontainer')
-                var institucion = $('#id_clover_delete').val()
-                // console.log(institucion)
-                // $("input[name='id_clover_delete']").val($('#id_clover_delete').val())
+                var institucion = $('#id_institucion_delete').val()
+                // $("input[name='id_user_delete']").val($('#id_user_delete').val())
                 $(this).ajaxSubmit({
                     url: "/instituciones/delete/",
                     success: function(rpta, r, n, l) {
                         reloadToken(rpta.token)
-
+                        console.log(rpta)
                         $('#m_modal_confirm_delete').modal('hide')
                         if (rpta.status == 200) {
                             desactivar(id, rpta.token, institucion)
 
-                            notify('El institucion ha sido desactivado', 'flaticon-exclamation-2', 'success')
+
+                            notify('La institución ha sido desactivado', 'flaticon-exclamation-2', 'success')
+
 
                         } else {
-                            notify('El institucion no ha sido desactivado', 'flaticon-exclamation-2', 'danger')
+                            notify('La institución no ha sido desactivado', 'flaticon-exclamation-2', 'danger')
                         }
 
                     }
                 })
             })
         },
-        showclover = function() {
+        showinstitucion = function() {
             $("#frm_confirm_restore").submit(function(e) {
                 e.preventDefault()
                 var id = $(this).data('idcontainer')
-                //este no se esta poniendo ene l val
-                var institucion = $('#id_clover_restore').val()
-                // console.log(institucion)
-                // $("input[name='id_clover_restore']").val($('.confirm_action_activate').data('confirm'))
+                console.log(id)
+                var institucion = $('#id_institucion_restore').val()
+                // $("input[name='id_user_restore']").val($('.confirm_action_activate').data('confirm'))
                 $(this).ajaxSubmit({
                     url: "/instituciones/restore/",
                     success: function(rpta, r, n, l) {
@@ -149,10 +150,10 @@ var snippedInstitutiono = function() {
                         if (rpta.status == 200) {
                             activar(id, rpta.token, institucion)
 
-                            notify('El institucion ha sido restaurado', 'flaticon-exclamation-2', 'success')
+                            notify('La institución ha sido restaurado', 'flaticon-exclamation-2', 'success')
 
                         } else {
-                            notify('El institucion no ha sido restaurado', 'flaticon-exclamation-2', 'danger')
+                            notify('La institución no ha sido restaurado', 'flaticon-exclamation-2', 'danger')
                         }
 
                     }
@@ -163,32 +164,29 @@ var snippedInstitutiono = function() {
             $("input[name='token']").val(token);
         },
 
-        deleteConfirm = function() {
-            $(document).on('click', '.confirm_action_data', function(e) {
+         deleteConfirm = function(){
+           $(document).on('click', '.confirm_action_data', function(e){
 
-                e.preventDefault();
-                const dataConfirm = $(this).data('confirm');
-                const dataId = $(this).data('idcontainer');
-                $('#id_clover_delete').val(dataConfirm);
-                $('#frm_confirm_delete').data('idcontainer', dataId);
+            e.preventDefault();
+            const dataConfirm = $(this).data('confirm');
+            const dataId = $(this).data('idcontainer');
+            $('#id_institucion_delete').val(dataConfirm);
+            $('#frm_confirm_delete').data('idcontainer',dataId);
             })
         },
-        restoreConfirm = function() {
-            $(document).on('click', '.confirm_action_activate', function(e) {
-                e.preventDefault();
-                const dataConfirm = $(this).data('confirm');
-                const dataId = $(this).data('idcontainer');
+        restoreConfirm = function(){
+            $(document).on('click', '.confirm_action_activate', function(e){
+            e.preventDefault();
+            const dataConfirm = $(this).data('confirm');
+            const dataId = $(this).data('idcontainer');
 
-                $('#id_clover_restore').val(dataConfirm);
-                $('#frm_confirm_restore').data('idcontainer', dataId);
+            $('#id_institucion_restore').val(dataConfirm);
+            $('#frm_confirm_restore').data('idcontainer',dataId);
             })
         }
-
-
-
     return {
         init: function() {
-            es(), newInstitution(), editInstitution(), hideclover(), showclover(), deleteConfirm(), restoreConfirm()
+            es(), newInstitution(), editInstitution(), hideinstitucion(), showinstitucion(), deleteConfirm(), restoreConfirm()
         }
     }
 }()

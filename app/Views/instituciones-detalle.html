@@ -31,31 +31,10 @@
               <h2>
                {{institucion.name}}
               </h2>
-              <p>
-              
-                {{institucion.type_name}}
-              </p>
             </div>
           </div>
         </div>
-        <div class="m-portlet__head-tools ">
-          <ul class="m-portlet__nav">
-            <li class="m-portlet__nav-item">
-            </li>
-            <li class="m-portlet__nav-item">
 
-                <i class="la  la-user"></i>
-                <span>{{ participantes|length}}</span>
-
-            </li>
-            <li class="m-portlet__nav-item">
-
-                <i class="flaticon-share"></i>
-                <span>{{ proyectos|length}}</span>
-
-            </li>
-          </ul>
-        </div>
       </div>
       <div class="m-portlet__body">
       </div>
@@ -70,136 +49,110 @@
         </div>
       </div>
       <div class="m-portlet__body">
-         <div class="container-flex-row ie-search">
-      {% for pr in proyectos %}
-      <div class="container-flex-row active close-child element-item hide-toshow proyecto_cont transition metal  {{pr.active == 1 ? '': 'inactive'}} {{pr.type_name}}" id="user_thumb_{{loop.index}}" style="max-width: 239px">
-        <a href="/proyectos/detalle/{{pr.id_clover}}" style="    width: 100%;"><div class="image_item30" style="background: url({{pr.clover_image}}); background-size: cover; background-repeat: no-repeat;">
-          <div class="floating-icons">
-            <span class="floating-icon-caracter">
-            <li class="fa fa-{{pr.type_name == 'Privado' ? 'lock' : 'unlock'}}"></li>
-          </span>
-          <span class="floating-icon-participants">
-            <li class="la la-user"></li>{{pr.participantes +1}}
-          </span>
-          </div>
-        </div></a>
-        <div class="conte_item30" >
-          <h2 class="nombres">{{pr.clover_name|length > 20 ? pr.clover_name[:20]~'...' :  pr.clover_name}}</h2>
-          <ul>
-            <li>
-            <span><i class="la la-shield"></i></span>
-            <span>{{pr.institution_name}}</span>
-            </li>
-            <li>
-            <span><i class="la la-building"></i></span>
-            <span>{{pr.franchise_name}}</span>
-            </li>
-          </ul>
-           <!-- QUE GROSERIA... AHI SE LO DEJO PARA QUE LE DE PENA <br> -->
-            {% for p in usd.permisos %}
-            {% if p.nombre == 'usuarios' %}
-            <div class="btn-group  thumb-action-buttons" role="group" aria-label="First group">
+        <div class="container-flex-row ie-search">
 
-              {% if p.r == 1 %}
-              <a href="/proyectos/detalle/{{pr.id_clover}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a>
+          {% for pr in proyectos %}
+          <div class="container-flex-row active close-child element-item hide-toshow proyecto_cont transition   {{pr.active == 1 ? '': 'inactive'}}{{ pr.tag|replace({',':' '}) }}" id="user_thumb_{{loop.index}}" style="max-width: 239px">
+            <a href="/proyectos/detalle/{{pr.id}}" style="    width: 100%;"><div class="image_item30" style="background: url({{pr.image}}); background-size: cover; background-repeat: no-repeat;">
+            </div></a>
+            <div class="conte_item30" >
+              <h2 class="nombres">{{pr.name|length > 20 ? pr.name[:20]~'...' :  pr.name}}</h2>
+              <p class="hide">{{pr.tag}}</p>
+              <ul>
+                <li>
+                <span><i class="la la-shield"></i></span>
+                <span>{{pr.institutionname}}</span>
+                </li>
+                <li>
+                <span><i class="la la-building"></i></span>
+                <span>{{pr.categoryname}}</span>
+                </li>
+              </ul>
 
-              {% endif %}
+                {% for p in usd.permisos %}
+                {% if p.nombre == 'usuarios' %}
+                <div class="btn-group  thumb-action-buttons" role="group" aria-label="First group">
+                  {% if p.u == 1 or pr.id_cf == usd.id %}
+                  <!-- poner boton editar -->
+                  <a href="/proyectos/editar/{{pr.id}}" class="m-btn btn btn-primary"><i class="la la-edit"></i></a>
+                  {% endif %}
+                  {% if p.r == 1 %}
+                  <a href="/proyectos/detalle/{{pr.id}}" class="m-btn btn btn-success"><i class="la la-eye"></i></a>
+
+                  {% endif %}
+                  {% if p.d == 1 and pr.active == 1   %}
+                  {% if pr.id_cf == usd.id or usd.rol == 1%}
+                  <!-- poner boton eliominar -->
+                  <!-- <button type="button" class="m-btn btn btn-danger" data-toggle="modal" data-target="#m_modal_{{count}}"><a href=""><i class="la la-remove"></i></a></button>  -->
+                  <button type="button" class="m-btn btn btn-danger confirm_action_data" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_delete"><i class="la la-remove"></i></button>
+                  {% endif %}
+                  {% endif %}
+                  {% if p.u == 1 and pr.active != 1 %}
+                  <button type="button" class="m-btn btn btn-primary confirm_action_activate" data-token="{{token}}" data-idcontainer="user_thumb_{{loop.parent.loop.index}}" data-toggle="modal" data-confirm="{{pr.id}}"  data-target="#m_modal_confirm_active"><i class="la la-check"></i></button>
+                  {% endif %}
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
-            {% endif %}
-            {% endfor %}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-      </div>
-    </div>
-    <div class="m-portlet m-portlet--mobile">
-      <div class="m-portlet__head">
-        <div class="m-portlet__head-caption">
-          <div class="m-portlet__head-title">
-            <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-building" style="font-size: 2.3rem;"></i>Sedes</h3>
           </div>
+          {% endfor %}
         </div>
       </div>
-      <div class="m-portlet__body">
-        <section class="container-flex-row ie-search">
-            {% for i in sede %}
-            <article class="item-inst close-child element-item transition metal {{i.type_name}} {{i.active == 1 ? '': 'inactive'}} inst-edu inner-flex-inst " id="user_thumb_{{loop.index}}" data-category="transition" >
-                    <div class="inst-icon" style="background: url({{i.image}}); background-size: cover; background-repeat: no-repeat;">
-                    </div>
-                    <div class="inst-content">
-                        <strong>
-                            <h2 class="nombres">{{i.franchise_name}}</h2>
-                        </strong>
-                        <span><i class="la la-building"></i></span><span>&nbsp;{{i.institution_name}}</span>
-                    </div>
-                    <div class="inst-resume">
-                        <i class="m-menu__link-icon la la-bullseye"></i> <span>{{i.clovers}}</span>
-                        <br>
-                        <i class="m-menu__link-icon la  la-user"></i> <span>{{i.usuarios}}</span>
-                    </div>
-                    <div class="vertical-container">
-                        {% for p in usd.permisos %}
-                            {% if p.nombre == 'usuarios' %}
-
-                                {% if p.r == 1 %}
-                                <a href="/sedes/detalle/{{i.id_franchise}}" class="m-btn btn btn-success">
-                                    <i class="la la-eye"></i>
-                                </a>
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-           </article>
-            {% endfor %}
-    </section>
-      </div>
     </div>
+
     <!-- Participantes -->
 
-<div class="m-portlet m-portlet--mobile">
-      <div class="m-portlet__head">
-        <div class="m-portlet__head-caption">
-          <div class="m-portlet__head-title">
-            <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-user" style="font-size: 2.3rem;"></i>Participantes</h3>
-          </div>
+    <div class="m-portlet m-portlet--mobile">
+        <div class="m-portlet__head">
+            <div class="m-portlet__head-caption">
+                <div class="m-portlet__head-title">
+                    <h3 class="m-portlet__head-text"><i class="m-menu__link-icon icon-tittle  la la-history" style="font-size: 2.3rem;"></i>Historial</h3>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="m-portlet__body">
-      <section class="container-flex-row ie-search">
-           {% for u in participantes %}
-            <article class="item-inst close-child element-item transition metal {{u.active == 1 ? '': 'inactive'}} inst-edu inner-flex-inst " id="user_thumb_{{loop.index}}" data-category="transition" >
-                    <div class="inst-icon" style="background: url({{u.profile_image}}); background-size: cover; background-repeat: no-repeat;">
-                    <div class="floating-icons">
-                       <span><i class="la la-bullseye"></i></span><span>&nbsp;{{u.proyectos}}</span>
-                    </div>
-                    </div>
-                    <div class="inst-content">
-                        <strong>
-                            <h2 class="nombres">{{u.full_name}} {{u.last_name}}</h2>
-                        </strong>
-                        <span>@{{u.nick}}</span>
-                        <br>
-                        <span><i class="la la-shield"></i></span><span>&nbsp;{{u.institution_name}}</span>
-                        <br>
-                        <span><i class="la la-building"></i></span><span>&nbsp;{{u.franchise_name}}</span>
-                    </div>
-                    <div class="vertical-container">
-                        {% for p in usd.permisos %}
-                            {% if p.nombre == 'usuarios' %}
-
-                                {% if p.r == 1 %}
-                                <a href="/usuarios/detalle/{{u.id}}" class="m-btn btn btn-success">
-                                    <i class="la la-eye"></i>
-                                </a>
-                                {% endif %}
-                            {% endif %}
+        <div class="m-portlet__body">
+            <div class="container-flex-row">
+                <div class="m-timeline-1 m-timeline-1--fixed">
+                    <div class="m-timeline-1__items">
+                        <div class="m-timeline-1__marker"></div>
+                        {% for h in historial %}
+                        <div class="m-timeline-1__item ">
+                            <div class="m-timeline-1__item-circle">
+                                <div class="m--bg-danger"></div>
+                            </div>
+                            <div class="m-timeline-1__item-arrow"></div>
+                            <span class="m-timeline-1__item-time m--font-brand">{{h.ca|date("Y/m/d")}}</span>
+                            <div class="m-timeline-1__item-content">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        {{h.description|raw}}
+                                    </div>
+                                    <div class="col-md-8">
+                                    {% for hi in files_historial %}
+                                    {% if hi.id_belongs == h.id and hi.file_type == 1 %}
+                                        <i class="m-menu__link-icon la la-file-video-o"></i>
+                                    {% endif %}
+                                    {% if hi.id_belongs == h.id and hi.file_type == 2 %}
+                                        <i class="m-menu__link-icon la la-file-image-o"></i>
+                                    {% endif %}
+                                    {% if hi.id_belongs == h.id and hi.file_type == 3 %}
+                                        <i class="m-menu__link-icon la la-file-audio-o"></i>
+                                    {% endif %}
+                                    {% endfor %}</div>
+                                    <div class="col-md-3">
+                                        <a href="/historial/detalle/{{h.id}}" class="btn btn-sm m-btn--custom m-btn--pill  btn-danger">
+                                            Ver más
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {% endfor %}
                     </div>
-           </article>
-            {% endfor %}
-          </section>
-      </div>
+                </div>
+            </div>
+            <a href="/Historial/nuevo/gMrJ7PbtreboluQF+avhBvpR1yg==/{{cripted}}" class="btn btn-sm m-btn--custom m-btn--pill  btn-danger">Crear nuevo historial</a>
+        </div>
     </div>
 
     <!-- Final de contenido -->

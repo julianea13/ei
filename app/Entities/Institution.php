@@ -67,15 +67,22 @@ class Institution
       "name"=>$this->name,
       "image"=>$this->image,
       "shield"=>$this->shield,
-      "id_cf"=>$this->id_cf,
+      "active"=>$this->active,
       "municipio"=>$this->municipio
     );
   }
   public function updates(){
     return array(
       "name"=>$this->name,
+      "image"=>$this->image,
+      "shield"=>$this->shield,
       "municipio"=>$this->municipio
     );
+  }
+  public function delete(){
+    return array(
+      "active"=>$this->active
+      );
   }
 
 }

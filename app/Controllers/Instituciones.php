@@ -9,7 +9,11 @@ use \ThisApp\Aplication\Security\Token;
 use \ThisApp\Aplication\Security\Hash;
 use \ThisApp\Aplication\Security\ErrorLog;
 use \ThisApp\Models\Institutions;
+use \ThisApp\Entities\Institution;
 use \ThisApp\Entities\Municipio;
+use \ThisApp\Models\Proyectos as mProyectos;
+use \ThisApp\Models\Files;
+use \ThisApp\Models\Historial;
 
 class Instituciones {
 
@@ -47,17 +51,59 @@ class Instituciones {
     if($id == false || !is_numeric($id))
     ErrorLog::throwNew("pagina no encontrada", debug_backtrace(), '404');
     $oP = new Institutions;
+    $oh = new Historial;
+    $opr= new mProyectos;
+
+    $historial=$oh->getHistorial(2,$id);
+    $projects=$opr->getInstitutionById($id);
+
+
     $institucion = $oP->getinstitutions($id);
     $data = array(
       "title"=>"Detalle del post",
-      "institucion" => $institucion
-
+      "institucion" => $institucion,
+      "proyectos" => $projects,
+      "historial" => $historial,
+      "cripted" => $actions[0]
     );
     View::show('instituciones-detalle',$data);
   }
+//Create
+  public function crear($actions = null){
+	  Response::validate($this->_request->ajax(), 'institution', 'c');
+
+    $oInstitution = new Institutions();
+		$Institution = $this->_qs;
+		$usd = Session::get("user");
+		$eInstitution = new Institution();
+   	$eInstitution->setName($Institution['name']);
+    $eInstitution->setImage($Institution['portada']);
+   	$eInstitution->setShield($Institution['shield']);
+   	$eInstitution->setActive('1');
+   	$eInstitution->setMunicipio($Institution['type']);
+ 			if($oInstitution->setInst($eInstitution)){
+        Session::setFlash('Creacion del proyecto', 'El proyecto fue creado con exito.');
+        Response::ajax(200, 'Creado');
+      }
+      else{
+        Response::ajax(204, 'No creado');
+      }
+	 }
   public function nuevo($actions = null)
   {
-    View::show('nueva-instituciones');
+    $oP = new Institutions;
+    $municipio = $oP->getMunicipio();
+    $idI = ++$oP->getId()->institution;
+
+    $idIe = Hash::encrypt($idI);
+
+    $data = array(
+      "title"=>"Nuevo proyecto",
+      "municipio"=>$municipio,
+      "id_instEn"=>$idIe,
+      "id_inst"=>$idI
+    );
+    View::show('nueva-instituciones',$data);
   }
   //Editar
   public function editar($actions = null)
@@ -103,5 +149,30 @@ class Instituciones {
     else{
       Response::ajax(204, 'No Editado');
     }
+  }
+  public function delete($actions = null){
+    if(!$this->_request->ajax())
+      Response::ajax(403, 'Missing token');
+      Token::tokenCheck($this->_qs['token']);
+
+      $id_institucion = Hash::decrypt($this->_qs['id_institucion_delete']);
+      $oP = new Institutions();
+      if($oP->delete($id_institucion))
+        Response::ajax(200, 'Eliminado');
+      else
+        Response::ajax(204, 'No eliminado');
+  }
+  public function restore($actions = null){
+    if(!$this->_request->ajax())
+      Response::ajax(403, 'Missing token');
+      Token::tokenCheck($this->_qs['token']);
+      $id_institucion = Hash::decrypt($this->_qs['id_institucion_restore']);
+
+      $oP = new Institutions();
+      if($oP->restore($id_institucion))
+        Response::ajax(200, 'Restaurado');
+      else
+        Response::ajax(204, 'No restaurado');
+
   }
 }

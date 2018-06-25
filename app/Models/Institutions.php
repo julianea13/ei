@@ -35,9 +35,13 @@ class Institutions
 
       $eInstitution->setName($institution['name']);
       $eInstitution->setMunicipio($institution['municipio']);
-      // var_dump($institution);
+      $eInstitution->setShield($institution['shield']);
+      $eInstitution->setImage($institution['portada']);
+
+
+      // var_dump($eInstitution->updates());
       // exit;
-    if (!$this->_db->update("institution",array("field"=> "id", "value"=>$institution['i_id'] ),$eInstitution->updates())->error()) {
+    if (!$this->_db->update("institution",array("field"=> "id", "value"=>Hash::decrypt($institution['i_id']) ),$eInstitution->updates())->error()) {
       $rpta = $this->_db->lastId();
       return true;
     }else{
@@ -52,7 +56,7 @@ class Institutions
     $eInst = new Institution();
 
     $eInst->setActive('0');
-    if (!$this->_db->update("institutions",array("field"=> "id_institution", "value"=>$id),$eInst->delete())->error()) {
+    if (!$this->_db->update("institution",array("field"=> "id", "value"=>$id),$eInst->delete())->error()) {
       $rpta = $this->_db->lastId();
       return true;
     }else{
@@ -65,7 +69,8 @@ class Institutions
     $eInst = new Institution();
 
     $eInst->setActive('1');
-    if (!$this->_db->update("institutions",array("field"=> "id_institution", "value"=>$id),$eInst->delete())->error()) {
+    
+    if (!$this->_db->update("institution",array("field"=> "id", "value"=>$id),$eInst->delete())->error()) {
       $rpta = $this->_db->lastId();
       return true;
     }else{
@@ -90,7 +95,7 @@ class Institutions
   }
 
   public function getId(){
-   if ($this->_db->query("SELECT MAX(id_institution) AS 'institution' from institutions")->error() == true)
+   if ($this->_db->query("SELECT MAX(id) AS 'institution' from institution")->error() == true)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
     return $this->_db->first();
   }
@@ -119,7 +124,9 @@ class Institutions
 
 public function setInst(Institution $ins)
   {
-    if (!$this->_db->insert('institutions', $ins->inserts())->error()) {
+    // var_dump($ins->inserts());
+    // exit;
+    if (!$this->_db->insert('institution', $ins->inserts())->error()) {
       $rpta = $this->_db->lastId();
       return true;
     }else{
