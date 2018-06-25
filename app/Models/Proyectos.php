@@ -24,6 +24,34 @@ public function getSingle($id){
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
     return $this->_db->first();
   }
+
+     public function delete($id)
+  {
+    $ePro = new Proyect();
+
+    $ePro->setActive('0');
+    if (!$this->_db->update("proyect",array("field"=> "id", "value"=>$id),$ePro->delete())->error()) {
+      $rpta = $this->_db->lastId();
+      return true;
+    }else{
+      return false;
+    }
+
+  }
+    public function restore($id)
+  {
+    $ePro = new Proyect();
+
+    $ePro->setActive('1');
+    if (!$this->_db->update("proyect",array("field"=> "id", "value"=>$id),$ePro->delete())->error()) {
+      $rpta = $this->_db->lastId();
+      return true;
+    }else{
+      return false;
+    }
+
+  }
+
   public function getCategory(){
    $sql ="SELECT * FROM category";
     if ($this->_db->query($sql)->error() == true)
@@ -59,37 +87,18 @@ public function edit($proyect)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
     return $this->_db->first();
   }
-    public function delete($id)
-  {
-    $eClover = new Proyect();
-
-    $eClover->setActive('0');
-    if (!$this->_db->update("clovers",array("field"=> "id_clover", "value"=>$id),$eClover->delete())->error()) {
-      $rpta = $this->_db->lastId();
-      return true;
-    }else{
-      return false;
-    }
-
-  }
-    public function restore($id)
-  {
-    $eClover = new Proyect();
-
-    $eClover->setActive('1');
-    if (!$this->_db->update("clovers",array("field"=> "id_clover", "value"=>$id),$eClover->delete())->error()) {
-      $rpta = $this->_db->lastId();
-      return true;
-    }else{
-      return false;
-    }
-
-  }
-
   public function getAll(){
     $where = Session::get('user')['rol'] == '1' ? '' : ' and c.active = 1 ';
-   $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category ".$where." ORDER BY c.active DESC";
+   $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,p.id_cf,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category ".$where." ORDER BY c.active DESC";
     if ($this->_db->query($sql)->error() == true)
+     ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
+
+    return $this->_db->results();
+  }
+    public function getProyectbyuser($user){
+    $where = Session::get('user')['rol'] == '1' ? '' : ' and c.active = 1 ';
+   $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category JOIN users u on u.id = p.id_cf where u.id = :user ".$where." ORDER BY c.active DESC";
+    if ($this->_db->query($sql, array("user"=>$user))->error() == true)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
 
     return $this->_db->results();
@@ -98,10 +107,10 @@ public function edit($proyect)
     $where = Session::get('user')['rol'] == '1' ? '' : ' and c.active = 1 ';
    $sql ="SELECT p.id,p.name,p.description,p.tag,i.image,p.active,i.name as institutionname ,c.name as categoryname from proyect p JOIN institution i on i.id = p.id_institution JOIN category c on c.id = p.id_Category where i.id = :id ".$where." ORDER BY c.active DESC";
     if ($this->_db->query($sql, array("id"=>$id))->error() == true)
-     ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
+    ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
 
-    return $this->_db->results();
-  }
+   return $this->_db->results();
+ }
 
 
 public function setProyect(Proyect $Proyect)
@@ -136,6 +145,8 @@ public function setProyect(Proyect $Proyect)
       return false;
     }
   }
+
+
 
 
 

@@ -37,8 +37,7 @@ class Historial {
     $oF = new Files;
     $files = $oF->getFile('3',$id);   
     $filesAtt = $oF->getFileAttr('3',$id);
-     
-     
+    
     $data = array(
       "title"=>"Detalle del post",
       "history" => $history,

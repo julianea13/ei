@@ -147,7 +147,8 @@ div[id$="-error"] {
                                 <div class="m-timeline-1__item-content">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            {{h.description|raw}}                                            
+                                        {{h.description|length > 50 ? h.description|slice(0, 50) ~ '...' : h.description}}
+                                                                                 
                                         </div>
                                         <div class="col-md-8"> 
                                         {% for hi in files_historial %} 
@@ -286,5 +287,6 @@ $('.audios_post').on('click', function() {
     $('.audio_cont').attr('src', $(this).data('src'))
 })
 </script>
-<script src="/assets/app/js/comments.js" type="text/javascript"></script>
+<script src="/assets/app/js/proyecto.js" type="text/javascript"></script>
+
 {% endblock %}

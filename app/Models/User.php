@@ -119,32 +119,7 @@ class User
 		}
 		
 	}
-	public function delete($id)	
-	{		
-		$eUser = new eUser(); 
-
-	  $eUser->setActive('0');				
-		if (!$this->_db->update("users",array("field"=> "id", "value"=>$id),$eUser->delete())->error()) {
-			$rpta = $this->_db->lastId();
-			return true;
-		}else{
-			return false;
-		}
-		
-	}
-	public function restore($id)	
-	{		
-		$eUser = new eUser(); 
-
-	  $eUser->setActive('1');				
-		if (!$this->_db->update("users",array("field"=> "id", "value"=>$id),$eUser->delete())->error()) {
-			$rpta = $this->_db->lastId();
-			return true;
-		}else{
-			return false;
-		}
-		
-	}
+	
 
 	public function credentials($user){
 		$id_usuario = Session::get("user")["id"];

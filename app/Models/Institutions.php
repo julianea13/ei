@@ -88,7 +88,8 @@ class Institutions
   }
 
   public function getAll(){
-    if ($this->_db->query("SELECT (select count(id) from proyect where id_institution = i.id) as 'proyectos' , i.* from institution i")->error() == true)
+    $where = Session::get('user')['rol'] == '1' ? '' : ' where i.active = 1'; 
+    if ($this->_db->query("SELECT (select count(id) from proyect where id_institution = i.id) as 'proyectos' , i.* from institution i ".$where."")->error() == true)
      ErrorLog::throwNew( $this->_db->errDesc(), debug_backtrace(), '500');
 
     return $this->_db->results();

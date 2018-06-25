@@ -195,6 +195,8 @@ class Login {
 		        "image" => $user->getImage(),	        
 		        "email" => $user->getEmail(),
 		        "menu" => $menu,	
+		        "salt" => $user->getSalt(),	
+		        "password" => $user->getPassword(),
             "permisos"=>$permisos		        
 						];
 		//$datosJson = json_encode($userLogged);

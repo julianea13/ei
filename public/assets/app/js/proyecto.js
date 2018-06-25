@@ -116,8 +116,7 @@ var snippedProyecto = function() {
                     url: "/proyectos/delete/",
                     success: function(rpta, r, n, l) {
                         reloadToken(rpta.token)
-
-                        $('#m_modal_confirm_delete').modal('hide')
+                               $('#m_modal_confirm_delete').modal('hide')
                         if (rpta.status == 200) {
                             desactivar(id, rpta.token, proyecto)
 
@@ -144,7 +143,7 @@ var snippedProyecto = function() {
                     success: function(rpta, r, n, l) {
 
                         reloadToken(rpta.token)
-
+console.log(rpta)
                         $('#m_modal_confirm_active').modal('hide')
                         if (rpta.status == 200) {
                             activar(id, rpta.token, proyecto)

@@ -1,0 +1,201 @@
+{% extends 'masterIncludes/master.html'%} {% block styles %} {% endblock %} {% block contenido %}
+<div class="col-xl-2">
+</div>
+<div class="col-xl-8">
+    <!-- Inicio de contenido -->
+    <div class="m-portlet">
+        <div class="m-portlet__head">
+            <div class="m-portlet__head-caption">
+                <div class="m-portlet__head-title">
+                    <h3 class="m-portlet__head-text theme_trebol_green_font">                          Editar usuario                     </h3>
+                </div>
+            </div>
+        </div>
+        <div class="m-portlet__body">
+
+            <form action="" id="editUser">
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Nombres *</label>
+                    <input required autocomplete="off" type="text" value="{{user.name}}" class="form-control m-input" id="full_name" name="full_name">
+                    <input value="{{id_f}}" class="hide" id="default" name="default">
+                </div>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Apellidos*</label>
+                    <input required autocomplete="off" type="text" value="{{user.last_name}}" class="form-control m-input" id="last_name" name="last_name">
+                </div>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Imagen de perfil *</label>
+                    <div class="form-group m-form__group row">
+                        <div class="col-md-9 dropzone-container">
+                            <div class="m-dropzone custom_dropzone" id="img_update" data-container="body" data-toggle="m-popover" data-placement="top" data-content="Arrástra y suelta aquí la imagen del usuario, o haz clic aquí y seleccionalo." data-original-title="" title="">
+                                <div class="m-dropzone__msg dz-message needsclick">
+                                    <h3 class="m-dropzone__msg-title">
+                               Ingresar imagen del usuario
+                            </h3>
+                                    <span class="m-dropzone__msg-desc">
+                                Haz clic aquí y selecciona una imágen o arrastra una imágen
+                                <br>
+                                Tamaño recomendado 200*200 
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 image_drop"><img class="image_profile" src="{{user.image}}" alt=""></div>
+                    </div>
+                    <input type="text" name="image_profile" id="image_profile" class="hide" value="{{user.image}}">
+                    <span class="m-form__help">Si no se ingresa una imagen el sistema de asignara una por defecto.</span>
+                </div>
+                {% if usd.rol == 1 %}
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Rol del usuario *</label>
+                    <select class="form-control m-input--square" id="rol" name="rol">
+                        {% for r in rol %} {% if r.id == user.rol %}
+                        <option value="{{r.id}}" selected>{{r.name}}</option>
+                        {% else %}
+                        <option value="{{r.id}}">{{r.name}}</option>
+                        {% endif %} {% endfor %}
+                    </select>
+                </div>                
+                <input value="{{user.password}}" class="hide" id="default1" name="default1">                
+                {% endif %}
+                <p>Usa estos campos si deseas cambiar tu contraseña.</p>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Contraseña *</label>
+                    <input autocomplete="off" type="password" class="form-control m-input" id="passw" name="passw">
+                </div>
+                <div class="form-group m-form__group">
+                    <label for="exampleInputEmail1">Repetir Contraseña *</label>
+                    <input  autocomplete="off" type="password" class="form-control m-input" id="repass" name="repass">
+                </div>
+                <hr>
+                <input type="submit" class="btn btn-info" id="btn_edit" value="Editar usuario">
+            </form>
+        </div>
+    </div>
+    <!-- Final de contenido -->
+</div>
+<div class="col-xl-2">
+    <!--begin:: Widgets/Blog-->
+    <!--end:: Widgets/Blog-->
+</div>
+{% endblock %} {% block scripts %}
+<script>
+var modalTemplate = ' <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Cortar imagen  </h4></div><div class="modal-body"><div class="image-container"></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button><button type="button" class="btn btn-primary crop-upload">Listo</button></div></div></div></div></div>'
+
+function dataURItoBlob(dataURI) {
+    var byteString = atob(dataURI.split(',')[1]);
+    var ab = new ArrayBuffer(byteString.length);
+    var ia = new Uint8Array(ab);
+    for (var i = 0; i < byteString.length; i++) {
+        ia[i] = byteString.charCodeAt(i);
+    }
+    return new Blob([ab], { type: 'image/jpeg' });
+}
+Dropzone.autoDiscover = false;
+var t = {};
+var img_update = new Dropzone('#img_update', {
+    dictFileTooBig: "El archivo pesa mas de 2MB.",
+    dictMaxFilesExceeded : "No puedes subir mas de una imagen.",
+    autoProcessQueue: false,
+    maxFiles: 1,
+        url: '/Imagenes/image/users/{{user.id}}/png',
+        paramName: "img",
+        maxFilesize: 2,
+        acceptedFiles: "image/*",
+        error: function(file, message) {
+       notify(message, 'la la-warning', 'danger')
+        this.removeFile(file);
+    },
+    accept: function(file, done) {
+        done();
+    },
+    complete(a, b) {
+        //console.log(a);
+    },
+    success: function(m, r) {
+        console.log(r.status);
+        img_update.removeAllFiles(true);
+        if (r.status == 6) {
+            propuesta = r.idp;
+             console.log("success", "Imágen cargada correctamente", "", "la la-cloud-upload")
+           
+            notify('la imagen del perfil del usuario fue agregado correctamente!', 'flaticon-exclamation-2', 'success')
+        } else {
+            notify('Hubo un error al subir la imagen', 'la la-warning', 'danger')
+        }
+
+    },
+    sending(a, b, c) {
+        //c.append("token", $("#token").val());
+    }
+});
+// listen to thumbnail event
+img_update.on('thumbnail', function(file) {
+    // ignore files which were already cropped and re-rendered
+    // to prevent infinite loop
+    if (file.cropped) {
+        return;
+    }
+    if (file.width < 500 && file.height < 500) {
+        // validate width to prevent too small files to be uploaded
+        // .. add some error message here
+        return;
+    }
+    // cache filename to re-assign it to cropped file
+    var cachedFilename = file.name;
+    // remove not cropped file from dropzone (we will replace it later)
+    img_update.removeFile(file);
+
+    // dynamically create modals to allow multiple files processing
+    var $cropperModal = $(modalTemplate);
+    // 'Crop and Upload' button in a modal
+    var $uploadCrop = $cropperModal.find('.crop-upload');
+
+    var $img = $('<img />');
+    // initialize FileReader which reads uploaded file
+    var reader = new FileReader();
+    reader.onloadend = function() {
+        // add uploaded and read image to modal
+        $cropperModal.find('.image-container').html($img);
+        $img.attr('src', reader.result);
+        // initialize cropper for uploaded image
+        $img.cropper({
+            aspectRatio: 1 / 1,
+            autoCropArea: 1,
+            movable: false,
+            cropBoxResizable: true,
+            minContainerWidth: 755,
+            minContainerHeight: 657
+        });
+    };
+    // read uploaded file (triggers code above)
+    reader.readAsDataURL(file);
+
+    $cropperModal.modal('show');
+
+    // listener for 'Crop and Upload' button in modal
+    $uploadCrop.on('click', function() {
+        // get cropped image data
+        var blob = $img.cropper('getCroppedCanvas').toDataURL();
+       
+           
+            $('#image_profile').attr('value', '/uploads/images/users/{{user.id}}/img.png');
+            var img = $('#image_profile').val()
+            d = new Date();
+            $('.image_profile').attr('src', img + '?' + d.getTime())
+            $('.profile_img_master').attr('src', '/uploads/images/users/{{user.id}}/img.png?' + d.getTime())
+        // transform it to Blob object
+        var newFile = dataURItoBlob(blob);
+        // set 'cropped to true' (so that we don't get to that listener again)
+        newFile.cropped = true;
+        // assign original filename
+        newFile.name = cachedFilename;
+
+        // add cropped file to dropzone
+        img_update.addFile(newFile);
+        // upload cropped file with dropzone
+        $cropperModal.modal('hide');
+    });
+});
+</script>
+<script src="/assets/app/js/user.js" type="text/javascript"></script> {% endblock %}

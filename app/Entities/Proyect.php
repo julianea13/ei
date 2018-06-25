@@ -106,5 +106,10 @@ class Proyect
       "tag"=>$this->tag
       );
   }
+   public function delete(){
+    return array(
+      "active"=>$this->active,
+      );
+  }
 
 }
